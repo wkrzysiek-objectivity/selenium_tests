@@ -20,13 +20,16 @@
     <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="96.0.4664.4500" />
 	</ItemGroup>
 	<ItemGroup>
+    <Compile Include="PageObjects\CartPage.cs" />
     <Compile Include="Common\Waits.cs" />
     <Compile Include="DataDriven\DataDrivenHelper.cs" />
     <Compile Include="DataDriven\TestData.cs" />
     <Compile Include="PageObjects\AuthenticationPage.cs" />
+    <Compile Include="PageObjects\BlousesCategoryPage.cs" />
     <Compile Include="PageObjects\CreateAccountPage.cs" />
     <Compile Include="PageObjects\HomePage.cs" />
     <Compile Include="PageObjects\MyAccountPage.cs" />
+    <Compile Include="Tests\ProductBuyWithoutLoginTest.cs" />
     <Compile Include="Tests\CreateNewUserTest.cs" />
     <Compile Include="ProjectBaseConfiguration.cs" />
     <Compile Include="ProjectPageBase.cs" />

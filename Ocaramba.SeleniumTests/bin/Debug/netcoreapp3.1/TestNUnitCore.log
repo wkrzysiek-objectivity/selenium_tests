@@ -3532,3 +3532,1084 @@
 2022-03-11 15:27:49.5157|Info|Ocaramba.Logger.TestLogger.Info|END: credentialCsv_Jan_Kowalski_aymer1_rackabzar_com_12345_1_1_1990_Jan_Kowalski_Objectivity_Strzalowa_12_m3_Poznan_1_12000_21_123123123_Main ends at 11.03.2022 15:27:49 after 12 sec.
 2022-03-11 15:27:49.5157|Info|Ocaramba.Logger.TestLogger.Info|*************************************************************************************
 2022-03-11 15:27:49.5157|Trace|Ocaramba.BaseConfiguration.get_JavaScriptErrorLogging|JavaScript error logging value from settings file 'false'
+2022-03-17 10:43:07.5391|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-17 10:43:07.5813|Trace|Ocaramba.BaseConfiguration.get_ChromeBrowserExecutableLocation|Gets the path and file name of the Chrome browser executable from settings file ''
+2022-03-17 10:43:07.5891|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverLog|Gets the PathToChromeDriverLog from settings file 'C:\Temp\chromedriver.log'
+2022-03-17 10:43:07.5891|Trace|Ocaramba.BaseConfiguration.get_EnableVerboseLoggingChrome|Verbose logging for Chrome value from settings file 'false'
+2022-03-17 10:43:07.6034|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverDirectory|Path to the directory containing Chrome Driver from settings file '..\..\..\..\chromedriver_win32'
+2022-03-17 10:43:07.6034|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverDirectory|Path to the directory containing Chrome Driver from settings file '..\..\..\..\chromedriver_win32'
+2022-03-17 10:43:07.6932|Trace|Ocaramba.BaseConfiguration.get_DownloadFolder|Get DownloadFolder value from settings file 'TestOutput'
+2022-03-17 10:43:07.7257|Trace|Ocaramba.BaseConfiguration.get_UseCurrentDirectory|Use Current Directory value from settings file 'true'
+2022-03-17 10:43:07.7280|Trace|Ocaramba.Helpers.FilesHelper.GetFolder|appConfigValue 'TestOutput', currentFolder 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1', UseCurrentDirectory 'True'
+2022-03-17 10:43:07.7280|Trace|Ocaramba.BaseConfiguration.get_UseCurrentDirectory|Use Current Directory value from settings file 'true'
+2022-03-17 10:43:07.7280|Trace|Ocaramba.Helpers.FilesHelper.GetFolder|Returned folder 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutput'
+2022-03-17 10:43:07.7280|Trace|Ocaramba.BaseConfiguration.get_Proxy|Gets the url from settings file ''
+2022-03-17 10:43:09.2499|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-17 10:43:09.2580|Info|Ocaramba.Logger.TestLogger.Info|*************************************************************************************
+2022-03-17 10:43:09.2580|Info|Ocaramba.Logger.TestLogger.Info|START: buyProductWithoutLogin starts at 17.03.2022 10:43:09.
+2022-03-17 10:47:59.4577|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-17 10:47:59.4786|Trace|Ocaramba.BaseConfiguration.get_ChromeBrowserExecutableLocation|Gets the path and file name of the Chrome browser executable from settings file ''
+2022-03-17 10:47:59.4786|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverLog|Gets the PathToChromeDriverLog from settings file 'C:\Temp\chromedriver.log'
+2022-03-17 10:47:59.4786|Trace|Ocaramba.BaseConfiguration.get_EnableVerboseLoggingChrome|Verbose logging for Chrome value from settings file 'false'
+2022-03-17 10:47:59.4786|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverDirectory|Path to the directory containing Chrome Driver from settings file '..\..\..\..\chromedriver_win32'
+2022-03-17 10:47:59.4786|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverDirectory|Path to the directory containing Chrome Driver from settings file '..\..\..\..\chromedriver_win32'
+2022-03-17 10:47:59.4980|Trace|Ocaramba.BaseConfiguration.get_DownloadFolder|Get DownloadFolder value from settings file 'TestOutput'
+2022-03-17 10:47:59.5151|Trace|Ocaramba.BaseConfiguration.get_UseCurrentDirectory|Use Current Directory value from settings file 'true'
+2022-03-17 10:47:59.5151|Trace|Ocaramba.Helpers.FilesHelper.GetFolder|appConfigValue 'TestOutput', currentFolder 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1', UseCurrentDirectory 'True'
+2022-03-17 10:47:59.5151|Trace|Ocaramba.BaseConfiguration.get_UseCurrentDirectory|Use Current Directory value from settings file 'true'
+2022-03-17 10:47:59.5151|Trace|Ocaramba.Helpers.FilesHelper.GetFolder|Returned folder 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutput'
+2022-03-17 10:47:59.5151|Trace|Ocaramba.BaseConfiguration.get_Proxy|Gets the url from settings file ''
+2022-03-17 10:48:00.3770|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-17 10:48:00.3833|Info|Ocaramba.Logger.TestLogger.Info|*************************************************************************************
+2022-03-17 10:48:00.3833|Info|Ocaramba.Logger.TestLogger.Info|START: buyProductWithoutLogin starts at 17.03.2022 10:48:00.
+2022-03-17 10:48:00.3833|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-17 10:48:00.3985|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-17 10:48:35.0028|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-17 10:48:35.0235|Trace|Ocaramba.BaseConfiguration.get_ChromeBrowserExecutableLocation|Gets the path and file name of the Chrome browser executable from settings file ''
+2022-03-17 10:48:35.0283|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverLog|Gets the PathToChromeDriverLog from settings file 'C:\Temp\chromedriver.log'
+2022-03-17 10:48:35.0283|Trace|Ocaramba.BaseConfiguration.get_EnableVerboseLoggingChrome|Verbose logging for Chrome value from settings file 'false'
+2022-03-17 10:48:35.0283|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverDirectory|Path to the directory containing Chrome Driver from settings file '..\..\..\..\chromedriver_win32'
+2022-03-17 10:48:35.0283|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverDirectory|Path to the directory containing Chrome Driver from settings file '..\..\..\..\chromedriver_win32'
+2022-03-17 10:48:35.0438|Trace|Ocaramba.BaseConfiguration.get_DownloadFolder|Get DownloadFolder value from settings file 'TestOutput'
+2022-03-17 10:48:35.0587|Trace|Ocaramba.BaseConfiguration.get_UseCurrentDirectory|Use Current Directory value from settings file 'true'
+2022-03-17 10:48:35.0587|Trace|Ocaramba.Helpers.FilesHelper.GetFolder|appConfigValue 'TestOutput', currentFolder 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1', UseCurrentDirectory 'True'
+2022-03-17 10:48:35.0587|Trace|Ocaramba.BaseConfiguration.get_UseCurrentDirectory|Use Current Directory value from settings file 'true'
+2022-03-17 10:48:35.0587|Trace|Ocaramba.Helpers.FilesHelper.GetFolder|Returned folder 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutput'
+2022-03-17 10:48:35.0587|Trace|Ocaramba.BaseConfiguration.get_Proxy|Gets the url from settings file ''
+2022-03-17 10:48:35.9421|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-17 10:48:35.9469|Info|Ocaramba.Logger.TestLogger.Info|*************************************************************************************
+2022-03-17 10:48:35.9469|Info|Ocaramba.Logger.TestLogger.Info|START: buyProductWithoutLogin starts at 17.03.2022 10:48:35.
+2022-03-17 10:48:35.9622|Trace|Ocaramba.BaseConfiguration.get_Protocol|Gets the protocol from settings file 'http'
+2022-03-17 10:48:35.9622|Trace|Ocaramba.BaseConfiguration.get_Host|Gets the protocol from settings file 'automationpractice.com'
+2022-03-17 10:48:35.9622|Trace|Ocaramba.BaseConfiguration.get_Url|Gets the url from settings file ''
+2022-03-17 10:48:35.9622|Trace|Ocaramba.BaseConfiguration.get_GetUrlValue|Get Url value from settings file 'http://automationpractice.com'
+2022-03-17 10:48:35.9622|Trace|Ocaramba.BaseConfiguration.get_Protocol|Gets the protocol from settings file 'http'
+2022-03-17 10:48:35.9622|Trace|Ocaramba.BaseConfiguration.get_Host|Gets the protocol from settings file 'automationpractice.com'
+2022-03-17 10:48:35.9622|Trace|Ocaramba.BaseConfiguration.get_Url|Gets the url from settings file ''
+2022-03-17 10:48:35.9622|Info|Ocaramba.SeleniumTests.PageObjects.HomePage.OpenHomePage|Opening page http://automationpractice.com
+2022-03-17 10:48:42.2935|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-17 10:48:42.2935|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-17 10:48:42.2935|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-17 10:48:42.2935|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-17 10:50:40.6066|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-17 10:50:40.6260|Trace|Ocaramba.BaseConfiguration.get_ChromeBrowserExecutableLocation|Gets the path and file name of the Chrome browser executable from settings file ''
+2022-03-17 10:50:40.6260|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverLog|Gets the PathToChromeDriverLog from settings file 'C:\Temp\chromedriver.log'
+2022-03-17 10:50:40.6260|Trace|Ocaramba.BaseConfiguration.get_EnableVerboseLoggingChrome|Verbose logging for Chrome value from settings file 'false'
+2022-03-17 10:50:40.6341|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverDirectory|Path to the directory containing Chrome Driver from settings file '..\..\..\..\chromedriver_win32'
+2022-03-17 10:50:40.6341|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverDirectory|Path to the directory containing Chrome Driver from settings file '..\..\..\..\chromedriver_win32'
+2022-03-17 10:50:40.6341|Trace|Ocaramba.BaseConfiguration.get_DownloadFolder|Get DownloadFolder value from settings file 'TestOutput'
+2022-03-17 10:50:40.6487|Trace|Ocaramba.BaseConfiguration.get_UseCurrentDirectory|Use Current Directory value from settings file 'true'
+2022-03-17 10:50:40.6487|Trace|Ocaramba.Helpers.FilesHelper.GetFolder|appConfigValue 'TestOutput', currentFolder 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1', UseCurrentDirectory 'True'
+2022-03-17 10:50:40.6656|Trace|Ocaramba.BaseConfiguration.get_UseCurrentDirectory|Use Current Directory value from settings file 'true'
+2022-03-17 10:50:40.6656|Trace|Ocaramba.Helpers.FilesHelper.GetFolder|Returned folder 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutput'
+2022-03-17 10:50:40.6656|Trace|Ocaramba.BaseConfiguration.get_Proxy|Gets the url from settings file ''
+2022-03-17 10:50:41.5541|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-17 10:50:41.5596|Info|Ocaramba.Logger.TestLogger.Info|*************************************************************************************
+2022-03-17 10:50:41.5596|Info|Ocaramba.Logger.TestLogger.Info|START: buyProductWithoutLogin starts at 17.03.2022 10:50:41.
+2022-03-17 10:50:41.5710|Trace|Ocaramba.BaseConfiguration.get_Protocol|Gets the protocol from settings file 'http'
+2022-03-17 10:50:41.5710|Trace|Ocaramba.BaseConfiguration.get_Host|Gets the protocol from settings file 'automationpractice.com'
+2022-03-17 10:50:41.5710|Trace|Ocaramba.BaseConfiguration.get_Url|Gets the url from settings file ''
+2022-03-17 10:50:41.5710|Trace|Ocaramba.BaseConfiguration.get_GetUrlValue|Get Url value from settings file 'http://automationpractice.com'
+2022-03-17 10:50:41.5710|Trace|Ocaramba.BaseConfiguration.get_Protocol|Gets the protocol from settings file 'http'
+2022-03-17 10:50:41.5710|Trace|Ocaramba.BaseConfiguration.get_Host|Gets the protocol from settings file 'automationpractice.com'
+2022-03-17 10:50:41.5710|Trace|Ocaramba.BaseConfiguration.get_Url|Gets the url from settings file ''
+2022-03-17 10:50:41.5710|Info|Ocaramba.SeleniumTests.PageObjects.HomePage.OpenHomePage|Opening page http://automationpractice.com
+2022-03-17 10:50:46.0929|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-17 10:50:46.0929|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-22 13:10:47.8534|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-22 13:10:47.9047|Trace|Ocaramba.BaseConfiguration.get_ChromeBrowserExecutableLocation|Gets the path and file name of the Chrome browser executable from settings file ''
+2022-03-22 13:10:47.9047|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverLog|Gets the PathToChromeDriverLog from settings file 'C:\Temp\chromedriver.log'
+2022-03-22 13:10:47.9047|Trace|Ocaramba.BaseConfiguration.get_EnableVerboseLoggingChrome|Verbose logging for Chrome value from settings file 'false'
+2022-03-22 13:10:47.9159|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverDirectory|Path to the directory containing Chrome Driver from settings file '..\..\..\..\chromedriver_win32'
+2022-03-22 13:10:47.9159|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverDirectory|Path to the directory containing Chrome Driver from settings file '..\..\..\..\chromedriver_win32'
+2022-03-22 13:10:47.9159|Trace|Ocaramba.BaseConfiguration.get_DownloadFolder|Get DownloadFolder value from settings file 'TestOutput'
+2022-03-22 13:10:47.9477|Trace|Ocaramba.BaseConfiguration.get_UseCurrentDirectory|Use Current Directory value from settings file 'true'
+2022-03-22 13:10:47.9477|Trace|Ocaramba.Helpers.FilesHelper.GetFolder|appConfigValue 'TestOutput', currentFolder 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1', UseCurrentDirectory 'True'
+2022-03-22 13:10:47.9477|Trace|Ocaramba.BaseConfiguration.get_UseCurrentDirectory|Use Current Directory value from settings file 'true'
+2022-03-22 13:10:47.9477|Trace|Ocaramba.Helpers.FilesHelper.GetFolder|Returned folder 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutput'
+2022-03-22 13:10:47.9477|Trace|Ocaramba.BaseConfiguration.get_Proxy|Gets the url from settings file ''
+2022-03-22 13:10:49.0323|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-22 13:10:49.0407|Info|Ocaramba.Logger.TestLogger.Info|*************************************************************************************
+2022-03-22 13:10:49.0407|Info|Ocaramba.Logger.TestLogger.Info|START: buyProductWithoutLogin starts at 22.03.2022 13:10:49.
+2022-03-22 13:10:49.0407|Trace|Ocaramba.BaseConfiguration.get_Protocol|Gets the protocol from settings file 'http'
+2022-03-22 13:10:49.0407|Trace|Ocaramba.BaseConfiguration.get_Host|Gets the protocol from settings file 'automationpractice.com'
+2022-03-22 13:10:49.0407|Trace|Ocaramba.BaseConfiguration.get_Url|Gets the url from settings file ''
+2022-03-22 13:10:49.0407|Trace|Ocaramba.BaseConfiguration.get_GetUrlValue|Get Url value from settings file 'http://automationpractice.com'
+2022-03-22 13:10:49.0407|Trace|Ocaramba.BaseConfiguration.get_Protocol|Gets the protocol from settings file 'http'
+2022-03-22 13:10:49.0407|Trace|Ocaramba.BaseConfiguration.get_Host|Gets the protocol from settings file 'automationpractice.com'
+2022-03-22 13:10:49.0407|Trace|Ocaramba.BaseConfiguration.get_Url|Gets the url from settings file ''
+2022-03-22 13:10:49.0407|Info|Ocaramba.SeleniumTests.PageObjects.HomePage.OpenHomePage|Opening page http://automationpractice.com
+2022-03-22 13:11:06.0039|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-22 13:11:06.0039|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-22 13:11:15.3423|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-22 13:11:15.3423|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-22 13:11:26.2168|Info|Ocaramba.Logger.TestLogger.Info|END: buyProductWithoutLogin ends at 22.03.2022 13:11:26 after 37 sec.
+2022-03-22 13:11:26.2168|Info|Ocaramba.Logger.TestLogger.Info|*************************************************************************************
+2022-03-22 13:11:26.2168|Trace|Ocaramba.BaseConfiguration.get_JavaScriptErrorLogging|JavaScript error logging value from settings file 'false'
+2022-03-22 13:12:05.7633|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-22 13:12:05.7819|Trace|Ocaramba.BaseConfiguration.get_ChromeBrowserExecutableLocation|Gets the path and file name of the Chrome browser executable from settings file ''
+2022-03-22 13:12:05.7819|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverLog|Gets the PathToChromeDriverLog from settings file 'C:\Temp\chromedriver.log'
+2022-03-22 13:12:05.7819|Trace|Ocaramba.BaseConfiguration.get_EnableVerboseLoggingChrome|Verbose logging for Chrome value from settings file 'false'
+2022-03-22 13:12:05.7819|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverDirectory|Path to the directory containing Chrome Driver from settings file '..\..\..\..\chromedriver_win32'
+2022-03-22 13:12:05.7912|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverDirectory|Path to the directory containing Chrome Driver from settings file '..\..\..\..\chromedriver_win32'
+2022-03-22 13:12:05.7912|Trace|Ocaramba.BaseConfiguration.get_DownloadFolder|Get DownloadFolder value from settings file 'TestOutput'
+2022-03-22 13:12:05.8162|Trace|Ocaramba.BaseConfiguration.get_UseCurrentDirectory|Use Current Directory value from settings file 'true'
+2022-03-22 13:12:05.8162|Trace|Ocaramba.Helpers.FilesHelper.GetFolder|appConfigValue 'TestOutput', currentFolder 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1', UseCurrentDirectory 'True'
+2022-03-22 13:12:05.8162|Trace|Ocaramba.BaseConfiguration.get_UseCurrentDirectory|Use Current Directory value from settings file 'true'
+2022-03-22 13:12:05.8162|Trace|Ocaramba.Helpers.FilesHelper.GetFolder|Returned folder 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutput'
+2022-03-22 13:12:05.8162|Trace|Ocaramba.BaseConfiguration.get_Proxy|Gets the url from settings file ''
+2022-03-22 13:12:06.6363|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-22 13:12:06.6363|Info|Ocaramba.Logger.TestLogger.Info|*************************************************************************************
+2022-03-22 13:12:06.6363|Info|Ocaramba.Logger.TestLogger.Info|START: buyProductWithoutLogin starts at 22.03.2022 13:12:06.
+2022-03-22 13:12:06.6363|Trace|Ocaramba.BaseConfiguration.get_Protocol|Gets the protocol from settings file 'http'
+2022-03-22 13:12:06.6363|Trace|Ocaramba.BaseConfiguration.get_Host|Gets the protocol from settings file 'automationpractice.com'
+2022-03-22 13:12:06.6363|Trace|Ocaramba.BaseConfiguration.get_Url|Gets the url from settings file ''
+2022-03-22 13:12:06.6363|Trace|Ocaramba.BaseConfiguration.get_GetUrlValue|Get Url value from settings file 'http://automationpractice.com'
+2022-03-22 13:12:06.6363|Trace|Ocaramba.BaseConfiguration.get_Protocol|Gets the protocol from settings file 'http'
+2022-03-22 13:12:06.6363|Trace|Ocaramba.BaseConfiguration.get_Host|Gets the protocol from settings file 'automationpractice.com'
+2022-03-22 13:12:06.6363|Trace|Ocaramba.BaseConfiguration.get_Url|Gets the url from settings file ''
+2022-03-22 13:12:06.6508|Info|Ocaramba.SeleniumTests.PageObjects.HomePage.OpenHomePage|Opening page http://automationpractice.com
+2022-03-22 13:12:07.0068|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-22 13:12:07.0068|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-22 13:12:35.2994|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-22 13:12:35.3184|Trace|Ocaramba.BaseConfiguration.get_ChromeBrowserExecutableLocation|Gets the path and file name of the Chrome browser executable from settings file ''
+2022-03-22 13:12:35.3184|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverLog|Gets the PathToChromeDriverLog from settings file 'C:\Temp\chromedriver.log'
+2022-03-22 13:12:35.3184|Trace|Ocaramba.BaseConfiguration.get_EnableVerboseLoggingChrome|Verbose logging for Chrome value from settings file 'false'
+2022-03-22 13:12:35.3268|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverDirectory|Path to the directory containing Chrome Driver from settings file '..\..\..\..\chromedriver_win32'
+2022-03-22 13:12:35.3268|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverDirectory|Path to the directory containing Chrome Driver from settings file '..\..\..\..\chromedriver_win32'
+2022-03-22 13:12:35.3387|Trace|Ocaramba.BaseConfiguration.get_DownloadFolder|Get DownloadFolder value from settings file 'TestOutput'
+2022-03-22 13:12:35.3550|Trace|Ocaramba.BaseConfiguration.get_UseCurrentDirectory|Use Current Directory value from settings file 'true'
+2022-03-22 13:12:35.3550|Trace|Ocaramba.Helpers.FilesHelper.GetFolder|appConfigValue 'TestOutput', currentFolder 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1', UseCurrentDirectory 'True'
+2022-03-22 13:12:35.3550|Trace|Ocaramba.BaseConfiguration.get_UseCurrentDirectory|Use Current Directory value from settings file 'true'
+2022-03-22 13:12:35.3550|Trace|Ocaramba.Helpers.FilesHelper.GetFolder|Returned folder 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutput'
+2022-03-22 13:12:35.3550|Trace|Ocaramba.BaseConfiguration.get_Proxy|Gets the url from settings file ''
+2022-03-22 13:12:36.1526|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-22 13:12:36.1526|Info|Ocaramba.Logger.TestLogger.Info|*************************************************************************************
+2022-03-22 13:12:36.1526|Info|Ocaramba.Logger.TestLogger.Info|START: buyProductWithoutLogin starts at 22.03.2022 13:12:36.
+2022-03-22 13:12:36.1526|Trace|Ocaramba.BaseConfiguration.get_Protocol|Gets the protocol from settings file 'http'
+2022-03-22 13:12:36.1526|Trace|Ocaramba.BaseConfiguration.get_Host|Gets the protocol from settings file 'automationpractice.com'
+2022-03-22 13:12:36.1526|Trace|Ocaramba.BaseConfiguration.get_Url|Gets the url from settings file ''
+2022-03-22 13:12:36.1526|Trace|Ocaramba.BaseConfiguration.get_GetUrlValue|Get Url value from settings file 'http://automationpractice.com'
+2022-03-22 13:12:36.1526|Trace|Ocaramba.BaseConfiguration.get_Protocol|Gets the protocol from settings file 'http'
+2022-03-22 13:12:36.1663|Trace|Ocaramba.BaseConfiguration.get_Host|Gets the protocol from settings file 'automationpractice.com'
+2022-03-22 13:12:36.1663|Trace|Ocaramba.BaseConfiguration.get_Url|Gets the url from settings file ''
+2022-03-22 13:12:36.1663|Info|Ocaramba.SeleniumTests.PageObjects.HomePage.OpenHomePage|Opening page http://automationpractice.com
+2022-03-22 13:12:55.6164|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-22 13:12:55.6164|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-22 13:13:02.9164|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-22 13:13:02.9164|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-22 13:13:03.3211|Info|Ocaramba.Logger.TestLogger.Info|END: buyProductWithoutLogin ends at 22.03.2022 13:13:03 after 27 sec.
+2022-03-22 13:13:03.3211|Info|Ocaramba.Logger.TestLogger.Info|*************************************************************************************
+2022-03-22 13:13:03.3230|Trace|Ocaramba.BaseConfiguration.get_JavaScriptErrorLogging|JavaScript error logging value from settings file 'false'
+2022-03-22 13:46:18.3592|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-22 13:46:18.3781|Trace|Ocaramba.BaseConfiguration.get_ChromeBrowserExecutableLocation|Gets the path and file name of the Chrome browser executable from settings file ''
+2022-03-22 13:46:18.3781|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverLog|Gets the PathToChromeDriverLog from settings file 'C:\Temp\chromedriver.log'
+2022-03-22 13:46:18.3781|Trace|Ocaramba.BaseConfiguration.get_EnableVerboseLoggingChrome|Verbose logging for Chrome value from settings file 'false'
+2022-03-22 13:46:18.3854|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverDirectory|Path to the directory containing Chrome Driver from settings file '..\..\..\..\chromedriver_win32'
+2022-03-22 13:46:18.3854|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverDirectory|Path to the directory containing Chrome Driver from settings file '..\..\..\..\chromedriver_win32'
+2022-03-22 13:46:18.3854|Trace|Ocaramba.BaseConfiguration.get_DownloadFolder|Get DownloadFolder value from settings file 'TestOutput'
+2022-03-22 13:46:18.4117|Trace|Ocaramba.BaseConfiguration.get_UseCurrentDirectory|Use Current Directory value from settings file 'true'
+2022-03-22 13:46:18.4117|Trace|Ocaramba.Helpers.FilesHelper.GetFolder|appConfigValue 'TestOutput', currentFolder 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1', UseCurrentDirectory 'True'
+2022-03-22 13:46:18.4117|Trace|Ocaramba.BaseConfiguration.get_UseCurrentDirectory|Use Current Directory value from settings file 'true'
+2022-03-22 13:46:18.4117|Trace|Ocaramba.Helpers.FilesHelper.GetFolder|Returned folder 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutput'
+2022-03-22 13:46:18.4117|Trace|Ocaramba.BaseConfiguration.get_Proxy|Gets the url from settings file ''
+2022-03-22 13:46:19.4294|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-22 13:46:19.4332|Info|Ocaramba.Logger.TestLogger.Info|*************************************************************************************
+2022-03-22 13:46:19.4332|Info|Ocaramba.Logger.TestLogger.Info|START: buyProductWithoutLogin starts at 22.03.2022 13:46:19.
+2022-03-22 13:46:19.4332|Trace|Ocaramba.BaseConfiguration.get_Protocol|Gets the protocol from settings file 'http'
+2022-03-22 13:46:19.4332|Trace|Ocaramba.BaseConfiguration.get_Host|Gets the protocol from settings file 'automationpractice.com'
+2022-03-22 13:46:19.4332|Trace|Ocaramba.BaseConfiguration.get_Url|Gets the url from settings file ''
+2022-03-22 13:46:19.4472|Trace|Ocaramba.BaseConfiguration.get_GetUrlValue|Get Url value from settings file 'http://automationpractice.com'
+2022-03-22 13:46:19.4472|Trace|Ocaramba.BaseConfiguration.get_Protocol|Gets the protocol from settings file 'http'
+2022-03-22 13:46:19.4472|Trace|Ocaramba.BaseConfiguration.get_Host|Gets the protocol from settings file 'automationpractice.com'
+2022-03-22 13:46:19.4472|Trace|Ocaramba.BaseConfiguration.get_Url|Gets the url from settings file ''
+2022-03-22 13:46:19.4472|Info|Ocaramba.SeleniumTests.PageObjects.HomePage.OpenHomePage|Opening page http://automationpractice.com
+2022-03-22 13:46:19.8057|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-22 13:46:19.8066|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-22 13:46:33.8504|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-22 13:46:33.8693|Trace|Ocaramba.BaseConfiguration.get_ChromeBrowserExecutableLocation|Gets the path and file name of the Chrome browser executable from settings file ''
+2022-03-22 13:46:33.8693|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverLog|Gets the PathToChromeDriverLog from settings file 'C:\Temp\chromedriver.log'
+2022-03-22 13:46:33.8693|Trace|Ocaramba.BaseConfiguration.get_EnableVerboseLoggingChrome|Verbose logging for Chrome value from settings file 'false'
+2022-03-22 13:46:33.8693|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverDirectory|Path to the directory containing Chrome Driver from settings file '..\..\..\..\chromedriver_win32'
+2022-03-22 13:46:33.8693|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverDirectory|Path to the directory containing Chrome Driver from settings file '..\..\..\..\chromedriver_win32'
+2022-03-22 13:46:33.8900|Trace|Ocaramba.BaseConfiguration.get_DownloadFolder|Get DownloadFolder value from settings file 'TestOutput'
+2022-03-22 13:46:33.9079|Trace|Ocaramba.BaseConfiguration.get_UseCurrentDirectory|Use Current Directory value from settings file 'true'
+2022-03-22 13:46:33.9079|Trace|Ocaramba.Helpers.FilesHelper.GetFolder|appConfigValue 'TestOutput', currentFolder 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1', UseCurrentDirectory 'True'
+2022-03-22 13:46:33.9079|Trace|Ocaramba.BaseConfiguration.get_UseCurrentDirectory|Use Current Directory value from settings file 'true'
+2022-03-22 13:46:33.9079|Trace|Ocaramba.Helpers.FilesHelper.GetFolder|Returned folder 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutput'
+2022-03-22 13:46:33.9079|Trace|Ocaramba.BaseConfiguration.get_Proxy|Gets the url from settings file ''
+2022-03-22 13:46:34.7229|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-22 13:46:34.7292|Info|Ocaramba.Logger.TestLogger.Info|*************************************************************************************
+2022-03-22 13:46:34.7292|Info|Ocaramba.Logger.TestLogger.Info|START: buyProductWithoutLogin starts at 22.03.2022 13:46:34.
+2022-03-22 13:46:34.7292|Trace|Ocaramba.BaseConfiguration.get_Protocol|Gets the protocol from settings file 'http'
+2022-03-22 13:46:34.7292|Trace|Ocaramba.BaseConfiguration.get_Host|Gets the protocol from settings file 'automationpractice.com'
+2022-03-22 13:46:34.7292|Trace|Ocaramba.BaseConfiguration.get_Url|Gets the url from settings file ''
+2022-03-22 13:46:34.7292|Trace|Ocaramba.BaseConfiguration.get_GetUrlValue|Get Url value from settings file 'http://automationpractice.com'
+2022-03-22 13:46:34.7292|Trace|Ocaramba.BaseConfiguration.get_Protocol|Gets the protocol from settings file 'http'
+2022-03-22 13:46:34.7292|Trace|Ocaramba.BaseConfiguration.get_Host|Gets the protocol from settings file 'automationpractice.com'
+2022-03-22 13:46:34.7292|Trace|Ocaramba.BaseConfiguration.get_Url|Gets the url from settings file ''
+2022-03-22 13:46:34.7445|Info|Ocaramba.SeleniumTests.PageObjects.HomePage.OpenHomePage|Opening page http://automationpractice.com
+2022-03-22 13:46:53.7561|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-22 13:46:53.7561|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-22 13:46:53.7835|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-22 13:46:53.7835|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-22 13:47:06.3140|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-22 13:47:06.3327|Trace|Ocaramba.BaseConfiguration.get_ChromeBrowserExecutableLocation|Gets the path and file name of the Chrome browser executable from settings file ''
+2022-03-22 13:47:06.3327|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverLog|Gets the PathToChromeDriverLog from settings file 'C:\Temp\chromedriver.log'
+2022-03-22 13:47:06.3397|Trace|Ocaramba.BaseConfiguration.get_EnableVerboseLoggingChrome|Verbose logging for Chrome value from settings file 'false'
+2022-03-22 13:47:06.3397|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverDirectory|Path to the directory containing Chrome Driver from settings file '..\..\..\..\chromedriver_win32'
+2022-03-22 13:47:06.3397|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverDirectory|Path to the directory containing Chrome Driver from settings file '..\..\..\..\chromedriver_win32'
+2022-03-22 13:47:06.3397|Trace|Ocaramba.BaseConfiguration.get_DownloadFolder|Get DownloadFolder value from settings file 'TestOutput'
+2022-03-22 13:47:06.3708|Trace|Ocaramba.BaseConfiguration.get_UseCurrentDirectory|Use Current Directory value from settings file 'true'
+2022-03-22 13:47:06.3708|Trace|Ocaramba.Helpers.FilesHelper.GetFolder|appConfigValue 'TestOutput', currentFolder 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1', UseCurrentDirectory 'True'
+2022-03-22 13:47:06.3708|Trace|Ocaramba.BaseConfiguration.get_UseCurrentDirectory|Use Current Directory value from settings file 'true'
+2022-03-22 13:47:06.3708|Trace|Ocaramba.Helpers.FilesHelper.GetFolder|Returned folder 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutput'
+2022-03-22 13:47:06.3708|Trace|Ocaramba.BaseConfiguration.get_Proxy|Gets the url from settings file ''
+2022-03-22 13:47:07.2468|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-22 13:47:07.2468|Info|Ocaramba.Logger.TestLogger.Info|*************************************************************************************
+2022-03-22 13:47:07.2468|Info|Ocaramba.Logger.TestLogger.Info|START: buyProductWithoutLogin starts at 22.03.2022 13:47:07.
+2022-03-22 13:47:07.2468|Trace|Ocaramba.BaseConfiguration.get_Protocol|Gets the protocol from settings file 'http'
+2022-03-22 13:47:07.2604|Trace|Ocaramba.BaseConfiguration.get_Host|Gets the protocol from settings file 'automationpractice.com'
+2022-03-22 13:47:07.2604|Trace|Ocaramba.BaseConfiguration.get_Url|Gets the url from settings file ''
+2022-03-22 13:47:07.2604|Trace|Ocaramba.BaseConfiguration.get_GetUrlValue|Get Url value from settings file 'http://automationpractice.com'
+2022-03-22 13:47:07.2604|Trace|Ocaramba.BaseConfiguration.get_Protocol|Gets the protocol from settings file 'http'
+2022-03-22 13:47:07.2604|Trace|Ocaramba.BaseConfiguration.get_Host|Gets the protocol from settings file 'automationpractice.com'
+2022-03-22 13:47:07.2604|Trace|Ocaramba.BaseConfiguration.get_Url|Gets the url from settings file ''
+2022-03-22 13:47:07.2604|Info|Ocaramba.SeleniumTests.PageObjects.HomePage.OpenHomePage|Opening page http://automationpractice.com
+2022-03-22 13:47:07.6175|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-22 13:47:07.6175|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-22 13:47:18.3846|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-22 13:47:18.4040|Trace|Ocaramba.BaseConfiguration.get_ChromeBrowserExecutableLocation|Gets the path and file name of the Chrome browser executable from settings file ''
+2022-03-22 13:47:18.4040|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverLog|Gets the PathToChromeDriverLog from settings file 'C:\Temp\chromedriver.log'
+2022-03-22 13:47:18.4040|Trace|Ocaramba.BaseConfiguration.get_EnableVerboseLoggingChrome|Verbose logging for Chrome value from settings file 'false'
+2022-03-22 13:47:18.4040|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverDirectory|Path to the directory containing Chrome Driver from settings file '..\..\..\..\chromedriver_win32'
+2022-03-22 13:47:18.4040|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverDirectory|Path to the directory containing Chrome Driver from settings file '..\..\..\..\chromedriver_win32'
+2022-03-22 13:47:18.4258|Trace|Ocaramba.BaseConfiguration.get_DownloadFolder|Get DownloadFolder value from settings file 'TestOutput'
+2022-03-22 13:47:18.4434|Trace|Ocaramba.BaseConfiguration.get_UseCurrentDirectory|Use Current Directory value from settings file 'true'
+2022-03-22 13:47:18.4434|Trace|Ocaramba.Helpers.FilesHelper.GetFolder|appConfigValue 'TestOutput', currentFolder 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1', UseCurrentDirectory 'True'
+2022-03-22 13:47:18.4434|Trace|Ocaramba.BaseConfiguration.get_UseCurrentDirectory|Use Current Directory value from settings file 'true'
+2022-03-22 13:47:18.4434|Trace|Ocaramba.Helpers.FilesHelper.GetFolder|Returned folder 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutput'
+2022-03-22 13:47:18.4473|Trace|Ocaramba.BaseConfiguration.get_Proxy|Gets the url from settings file ''
+2022-03-22 13:47:19.2936|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-22 13:47:19.2936|Info|Ocaramba.Logger.TestLogger.Info|*************************************************************************************
+2022-03-22 13:47:19.2936|Info|Ocaramba.Logger.TestLogger.Info|START: buyProductWithoutLogin starts at 22.03.2022 13:47:19.
+2022-03-22 13:47:19.2936|Trace|Ocaramba.BaseConfiguration.get_Protocol|Gets the protocol from settings file 'http'
+2022-03-22 13:47:19.2936|Trace|Ocaramba.BaseConfiguration.get_Host|Gets the protocol from settings file 'automationpractice.com'
+2022-03-22 13:47:19.3071|Trace|Ocaramba.BaseConfiguration.get_Url|Gets the url from settings file ''
+2022-03-22 13:47:19.3071|Trace|Ocaramba.BaseConfiguration.get_GetUrlValue|Get Url value from settings file 'http://automationpractice.com'
+2022-03-22 13:47:19.3071|Trace|Ocaramba.BaseConfiguration.get_Protocol|Gets the protocol from settings file 'http'
+2022-03-22 13:47:19.3071|Trace|Ocaramba.BaseConfiguration.get_Host|Gets the protocol from settings file 'automationpractice.com'
+2022-03-22 13:47:19.3071|Trace|Ocaramba.BaseConfiguration.get_Url|Gets the url from settings file ''
+2022-03-22 13:47:19.3071|Info|Ocaramba.SeleniumTests.PageObjects.HomePage.OpenHomePage|Opening page http://automationpractice.com
+2022-03-22 13:47:19.6642|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-22 13:47:19.6642|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-22 13:47:30.5261|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-22 13:47:30.5448|Trace|Ocaramba.BaseConfiguration.get_ChromeBrowserExecutableLocation|Gets the path and file name of the Chrome browser executable from settings file ''
+2022-03-22 13:47:30.5448|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverLog|Gets the PathToChromeDriverLog from settings file 'C:\Temp\chromedriver.log'
+2022-03-22 13:47:30.5448|Trace|Ocaramba.BaseConfiguration.get_EnableVerboseLoggingChrome|Verbose logging for Chrome value from settings file 'false'
+2022-03-22 13:47:30.5448|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverDirectory|Path to the directory containing Chrome Driver from settings file '..\..\..\..\chromedriver_win32'
+2022-03-22 13:47:30.5448|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverDirectory|Path to the directory containing Chrome Driver from settings file '..\..\..\..\chromedriver_win32'
+2022-03-22 13:47:30.5655|Trace|Ocaramba.BaseConfiguration.get_DownloadFolder|Get DownloadFolder value from settings file 'TestOutput'
+2022-03-22 13:47:30.5828|Trace|Ocaramba.BaseConfiguration.get_UseCurrentDirectory|Use Current Directory value from settings file 'true'
+2022-03-22 13:47:30.5828|Trace|Ocaramba.Helpers.FilesHelper.GetFolder|appConfigValue 'TestOutput', currentFolder 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1', UseCurrentDirectory 'True'
+2022-03-22 13:47:30.5828|Trace|Ocaramba.BaseConfiguration.get_UseCurrentDirectory|Use Current Directory value from settings file 'true'
+2022-03-22 13:47:30.5828|Trace|Ocaramba.Helpers.FilesHelper.GetFolder|Returned folder 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutput'
+2022-03-22 13:47:30.5828|Trace|Ocaramba.BaseConfiguration.get_Proxy|Gets the url from settings file ''
+2022-03-22 13:47:31.3942|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-22 13:47:31.4010|Info|Ocaramba.Logger.TestLogger.Info|*************************************************************************************
+2022-03-22 13:47:31.4010|Info|Ocaramba.Logger.TestLogger.Info|START: buyProductWithoutLogin starts at 22.03.2022 13:47:31.
+2022-03-22 13:47:31.4010|Trace|Ocaramba.BaseConfiguration.get_Protocol|Gets the protocol from settings file 'http'
+2022-03-22 13:47:31.4010|Trace|Ocaramba.BaseConfiguration.get_Host|Gets the protocol from settings file 'automationpractice.com'
+2022-03-22 13:47:31.4010|Trace|Ocaramba.BaseConfiguration.get_Url|Gets the url from settings file ''
+2022-03-22 13:47:31.4010|Trace|Ocaramba.BaseConfiguration.get_GetUrlValue|Get Url value from settings file 'http://automationpractice.com'
+2022-03-22 13:47:31.4010|Trace|Ocaramba.BaseConfiguration.get_Protocol|Gets the protocol from settings file 'http'
+2022-03-22 13:47:31.4010|Trace|Ocaramba.BaseConfiguration.get_Host|Gets the protocol from settings file 'automationpractice.com'
+2022-03-22 13:47:31.4010|Trace|Ocaramba.BaseConfiguration.get_Url|Gets the url from settings file ''
+2022-03-22 13:47:31.4010|Info|Ocaramba.SeleniumTests.PageObjects.HomePage.OpenHomePage|Opening page http://automationpractice.com
+2022-03-22 13:47:31.7595|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-22 13:47:31.7605|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-22 13:47:40.4334|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-22 13:47:40.4538|Trace|Ocaramba.BaseConfiguration.get_ChromeBrowserExecutableLocation|Gets the path and file name of the Chrome browser executable from settings file ''
+2022-03-22 13:47:40.4538|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverLog|Gets the PathToChromeDriverLog from settings file 'C:\Temp\chromedriver.log'
+2022-03-22 13:47:40.4538|Trace|Ocaramba.BaseConfiguration.get_EnableVerboseLoggingChrome|Verbose logging for Chrome value from settings file 'false'
+2022-03-22 13:47:40.4630|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverDirectory|Path to the directory containing Chrome Driver from settings file '..\..\..\..\chromedriver_win32'
+2022-03-22 13:47:40.4630|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverDirectory|Path to the directory containing Chrome Driver from settings file '..\..\..\..\chromedriver_win32'
+2022-03-22 13:47:40.4630|Trace|Ocaramba.BaseConfiguration.get_DownloadFolder|Get DownloadFolder value from settings file 'TestOutput'
+2022-03-22 13:47:40.4985|Trace|Ocaramba.BaseConfiguration.get_UseCurrentDirectory|Use Current Directory value from settings file 'true'
+2022-03-22 13:47:40.4985|Trace|Ocaramba.Helpers.FilesHelper.GetFolder|appConfigValue 'TestOutput', currentFolder 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1', UseCurrentDirectory 'True'
+2022-03-22 13:47:40.4985|Trace|Ocaramba.BaseConfiguration.get_UseCurrentDirectory|Use Current Directory value from settings file 'true'
+2022-03-22 13:47:40.4985|Trace|Ocaramba.Helpers.FilesHelper.GetFolder|Returned folder 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutput'
+2022-03-22 13:47:40.4985|Trace|Ocaramba.BaseConfiguration.get_Proxy|Gets the url from settings file ''
+2022-03-22 13:47:41.3216|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-22 13:47:41.3256|Info|Ocaramba.Logger.TestLogger.Info|*************************************************************************************
+2022-03-22 13:47:41.3256|Info|Ocaramba.Logger.TestLogger.Info|START: buyProductWithoutLogin starts at 22.03.2022 13:47:41.
+2022-03-22 13:47:41.3256|Trace|Ocaramba.BaseConfiguration.get_Protocol|Gets the protocol from settings file 'http'
+2022-03-22 13:47:41.3256|Trace|Ocaramba.BaseConfiguration.get_Host|Gets the protocol from settings file 'automationpractice.com'
+2022-03-22 13:47:41.3256|Trace|Ocaramba.BaseConfiguration.get_Url|Gets the url from settings file ''
+2022-03-22 13:47:41.3256|Trace|Ocaramba.BaseConfiguration.get_GetUrlValue|Get Url value from settings file 'http://automationpractice.com'
+2022-03-22 13:47:41.3256|Trace|Ocaramba.BaseConfiguration.get_Protocol|Gets the protocol from settings file 'http'
+2022-03-22 13:47:41.3256|Trace|Ocaramba.BaseConfiguration.get_Host|Gets the protocol from settings file 'automationpractice.com'
+2022-03-22 13:47:41.3256|Trace|Ocaramba.BaseConfiguration.get_Url|Gets the url from settings file ''
+2022-03-22 13:47:41.3386|Info|Ocaramba.SeleniumTests.PageObjects.HomePage.OpenHomePage|Opening page http://automationpractice.com
+2022-03-22 13:47:58.1031|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-22 13:47:58.1044|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-22 13:47:58.1364|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-22 13:47:58.1364|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-22 13:48:57.5986|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-22 13:48:57.6175|Trace|Ocaramba.BaseConfiguration.get_ChromeBrowserExecutableLocation|Gets the path and file name of the Chrome browser executable from settings file ''
+2022-03-22 13:48:57.6200|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverLog|Gets the PathToChromeDriverLog from settings file 'C:\Temp\chromedriver.log'
+2022-03-22 13:48:57.6200|Trace|Ocaramba.BaseConfiguration.get_EnableVerboseLoggingChrome|Verbose logging for Chrome value from settings file 'false'
+2022-03-22 13:48:57.6200|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverDirectory|Path to the directory containing Chrome Driver from settings file '..\..\..\..\chromedriver_win32'
+2022-03-22 13:48:57.6200|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverDirectory|Path to the directory containing Chrome Driver from settings file '..\..\..\..\chromedriver_win32'
+2022-03-22 13:48:57.6359|Trace|Ocaramba.BaseConfiguration.get_DownloadFolder|Get DownloadFolder value from settings file 'TestOutput'
+2022-03-22 13:48:57.6528|Trace|Ocaramba.BaseConfiguration.get_UseCurrentDirectory|Use Current Directory value from settings file 'true'
+2022-03-22 13:48:57.6528|Trace|Ocaramba.Helpers.FilesHelper.GetFolder|appConfigValue 'TestOutput', currentFolder 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1', UseCurrentDirectory 'True'
+2022-03-22 13:48:57.6528|Trace|Ocaramba.BaseConfiguration.get_UseCurrentDirectory|Use Current Directory value from settings file 'true'
+2022-03-22 13:48:57.6528|Trace|Ocaramba.Helpers.FilesHelper.GetFolder|Returned folder 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutput'
+2022-03-22 13:48:57.6528|Trace|Ocaramba.BaseConfiguration.get_Proxy|Gets the url from settings file ''
+2022-03-22 13:48:58.7426|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-22 13:48:58.7474|Info|Ocaramba.Logger.TestLogger.Info|*************************************************************************************
+2022-03-22 13:48:58.7474|Info|Ocaramba.Logger.TestLogger.Info|START: buyProductWithoutLogin starts at 22.03.2022 13:48:58.
+2022-03-22 13:48:58.7474|Trace|Ocaramba.BaseConfiguration.get_Protocol|Gets the protocol from settings file 'http'
+2022-03-22 13:48:58.7474|Trace|Ocaramba.BaseConfiguration.get_Host|Gets the protocol from settings file 'automationpractice.com'
+2022-03-22 13:48:58.7474|Trace|Ocaramba.BaseConfiguration.get_Url|Gets the url from settings file ''
+2022-03-22 13:48:58.7474|Trace|Ocaramba.BaseConfiguration.get_GetUrlValue|Get Url value from settings file 'http://automationpractice.com'
+2022-03-22 13:48:58.7474|Trace|Ocaramba.BaseConfiguration.get_Protocol|Gets the protocol from settings file 'http'
+2022-03-22 13:48:58.7474|Trace|Ocaramba.BaseConfiguration.get_Host|Gets the protocol from settings file 'automationpractice.com'
+2022-03-22 13:48:58.7474|Trace|Ocaramba.BaseConfiguration.get_Url|Gets the url from settings file ''
+2022-03-22 13:48:58.7604|Info|Ocaramba.SeleniumTests.PageObjects.HomePage.OpenHomePage|Opening page http://automationpractice.com
+2022-03-22 13:49:12.4701|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-22 13:49:12.4701|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-22 13:49:12.4930|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-22 13:49:12.4964|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-22 13:49:44.2447|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-22 13:49:44.2639|Trace|Ocaramba.BaseConfiguration.get_ChromeBrowserExecutableLocation|Gets the path and file name of the Chrome browser executable from settings file ''
+2022-03-22 13:49:44.2639|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverLog|Gets the PathToChromeDriverLog from settings file 'C:\Temp\chromedriver.log'
+2022-03-22 13:49:44.2639|Trace|Ocaramba.BaseConfiguration.get_EnableVerboseLoggingChrome|Verbose logging for Chrome value from settings file 'false'
+2022-03-22 13:49:44.2639|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverDirectory|Path to the directory containing Chrome Driver from settings file '..\..\..\..\chromedriver_win32'
+2022-03-22 13:49:44.2639|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverDirectory|Path to the directory containing Chrome Driver from settings file '..\..\..\..\chromedriver_win32'
+2022-03-22 13:49:44.2837|Trace|Ocaramba.BaseConfiguration.get_DownloadFolder|Get DownloadFolder value from settings file 'TestOutput'
+2022-03-22 13:49:44.2999|Trace|Ocaramba.BaseConfiguration.get_UseCurrentDirectory|Use Current Directory value from settings file 'true'
+2022-03-22 13:49:44.2999|Trace|Ocaramba.Helpers.FilesHelper.GetFolder|appConfigValue 'TestOutput', currentFolder 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1', UseCurrentDirectory 'True'
+2022-03-22 13:49:44.2999|Trace|Ocaramba.BaseConfiguration.get_UseCurrentDirectory|Use Current Directory value from settings file 'true'
+2022-03-22 13:49:44.2999|Trace|Ocaramba.Helpers.FilesHelper.GetFolder|Returned folder 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutput'
+2022-03-22 13:49:44.2999|Trace|Ocaramba.BaseConfiguration.get_Proxy|Gets the url from settings file ''
+2022-03-22 13:49:45.0868|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-22 13:49:45.0904|Info|Ocaramba.Logger.TestLogger.Info|*************************************************************************************
+2022-03-22 13:49:45.0904|Info|Ocaramba.Logger.TestLogger.Info|START: buyProductWithoutLogin starts at 22.03.2022 13:49:45.
+2022-03-22 13:49:45.0904|Trace|Ocaramba.BaseConfiguration.get_Protocol|Gets the protocol from settings file 'http'
+2022-03-22 13:49:45.0904|Trace|Ocaramba.BaseConfiguration.get_Host|Gets the protocol from settings file 'automationpractice.com'
+2022-03-22 13:49:45.0904|Trace|Ocaramba.BaseConfiguration.get_Url|Gets the url from settings file ''
+2022-03-22 13:49:45.0904|Trace|Ocaramba.BaseConfiguration.get_GetUrlValue|Get Url value from settings file 'http://automationpractice.com'
+2022-03-22 13:49:45.0904|Trace|Ocaramba.BaseConfiguration.get_Protocol|Gets the protocol from settings file 'http'
+2022-03-22 13:49:45.0904|Trace|Ocaramba.BaseConfiguration.get_Host|Gets the protocol from settings file 'automationpractice.com'
+2022-03-22 13:49:45.0904|Trace|Ocaramba.BaseConfiguration.get_Url|Gets the url from settings file ''
+2022-03-22 13:49:45.1051|Info|Ocaramba.SeleniumTests.PageObjects.HomePage.OpenHomePage|Opening page http://automationpractice.com
+2022-03-22 13:49:49.0599|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-22 13:49:49.0599|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-22 13:49:49.0849|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-22 13:49:49.0849|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-22 13:53:34.5654|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-22 13:53:34.5888|Trace|Ocaramba.BaseConfiguration.get_ChromeBrowserExecutableLocation|Gets the path and file name of the Chrome browser executable from settings file ''
+2022-03-22 13:53:34.5888|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverLog|Gets the PathToChromeDriverLog from settings file 'C:\Temp\chromedriver.log'
+2022-03-22 13:53:34.5888|Trace|Ocaramba.BaseConfiguration.get_EnableVerboseLoggingChrome|Verbose logging for Chrome value from settings file 'false'
+2022-03-22 13:53:34.5888|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverDirectory|Path to the directory containing Chrome Driver from settings file '..\..\..\..\chromedriver_win32'
+2022-03-22 13:53:34.5888|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverDirectory|Path to the directory containing Chrome Driver from settings file '..\..\..\..\chromedriver_win32'
+2022-03-22 13:53:34.6091|Trace|Ocaramba.BaseConfiguration.get_DownloadFolder|Get DownloadFolder value from settings file 'TestOutput'
+2022-03-22 13:53:34.6245|Trace|Ocaramba.BaseConfiguration.get_UseCurrentDirectory|Use Current Directory value from settings file 'true'
+2022-03-22 13:53:34.6245|Trace|Ocaramba.Helpers.FilesHelper.GetFolder|appConfigValue 'TestOutput', currentFolder 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1', UseCurrentDirectory 'True'
+2022-03-22 13:53:34.6245|Trace|Ocaramba.BaseConfiguration.get_UseCurrentDirectory|Use Current Directory value from settings file 'true'
+2022-03-22 13:53:34.6245|Trace|Ocaramba.Helpers.FilesHelper.GetFolder|Returned folder 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutput'
+2022-03-22 13:53:34.6245|Trace|Ocaramba.BaseConfiguration.get_Proxy|Gets the url from settings file ''
+2022-03-22 13:53:35.4185|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-22 13:53:35.4185|Info|Ocaramba.Logger.TestLogger.Info|*************************************************************************************
+2022-03-22 13:53:35.4185|Info|Ocaramba.Logger.TestLogger.Info|START: buyProductWithoutLogin starts at 22.03.2022 13:53:35.
+2022-03-22 13:53:35.4185|Trace|Ocaramba.BaseConfiguration.get_Protocol|Gets the protocol from settings file 'http'
+2022-03-22 13:53:35.4185|Trace|Ocaramba.BaseConfiguration.get_Host|Gets the protocol from settings file 'automationpractice.com'
+2022-03-22 13:53:35.4185|Trace|Ocaramba.BaseConfiguration.get_Url|Gets the url from settings file ''
+2022-03-22 13:53:35.4185|Trace|Ocaramba.BaseConfiguration.get_GetUrlValue|Get Url value from settings file 'http://automationpractice.com'
+2022-03-22 13:53:35.4185|Trace|Ocaramba.BaseConfiguration.get_Protocol|Gets the protocol from settings file 'http'
+2022-03-22 13:53:35.4321|Trace|Ocaramba.BaseConfiguration.get_Host|Gets the protocol from settings file 'automationpractice.com'
+2022-03-22 13:53:35.4321|Trace|Ocaramba.BaseConfiguration.get_Url|Gets the url from settings file ''
+2022-03-22 13:53:35.4321|Info|Ocaramba.SeleniumTests.PageObjects.HomePage.OpenHomePage|Opening page http://automationpractice.com
+2022-03-22 13:53:39.8045|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-22 13:53:39.8045|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-22 13:53:39.8293|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-22 13:53:39.8293|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-22 14:57:32.9774|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-22 14:57:32.9938|Trace|Ocaramba.BaseConfiguration.get_ChromeBrowserExecutableLocation|Gets the path and file name of the Chrome browser executable from settings file ''
+2022-03-22 14:57:33.0009|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverLog|Gets the PathToChromeDriverLog from settings file 'C:\Temp\chromedriver.log'
+2022-03-22 14:57:33.0009|Trace|Ocaramba.BaseConfiguration.get_EnableVerboseLoggingChrome|Verbose logging for Chrome value from settings file 'false'
+2022-03-22 14:57:33.0009|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverDirectory|Path to the directory containing Chrome Driver from settings file '..\..\..\..\chromedriver_win32'
+2022-03-22 14:57:33.0009|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverDirectory|Path to the directory containing Chrome Driver from settings file '..\..\..\..\chromedriver_win32'
+2022-03-22 14:57:33.0009|Trace|Ocaramba.BaseConfiguration.get_DownloadFolder|Get DownloadFolder value from settings file 'TestOutput'
+2022-03-22 14:57:33.0103|Trace|Ocaramba.BaseConfiguration.get_UseCurrentDirectory|Use Current Directory value from settings file 'true'
+2022-03-22 14:57:33.0103|Trace|Ocaramba.Helpers.FilesHelper.GetFolder|appConfigValue 'TestOutput', currentFolder 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1', UseCurrentDirectory 'True'
+2022-03-22 14:57:33.0103|Trace|Ocaramba.BaseConfiguration.get_UseCurrentDirectory|Use Current Directory value from settings file 'true'
+2022-03-22 14:57:33.0103|Trace|Ocaramba.Helpers.FilesHelper.GetFolder|Returned folder 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutput'
+2022-03-22 14:57:33.0103|Trace|Ocaramba.BaseConfiguration.get_Proxy|Gets the url from settings file ''
+2022-03-22 14:57:34.0197|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-22 14:57:34.0264|Info|Ocaramba.Logger.TestLogger.Info|*************************************************************************************
+2022-03-22 14:57:34.0264|Info|Ocaramba.Logger.TestLogger.Info|START: credentialCsv_Jan_Kowalski_aymer2_rackabzar_com_12345_1_1_1990_Jan_Kowalski_Objectivity_Strzalowa_12_m3_Poznan_1_12000_21_123123123_Main starts at 22.03.2022 14:57:34.
+2022-03-22 14:57:34.0264|Trace|Ocaramba.BaseConfiguration.get_Protocol|Gets the protocol from settings file 'http'
+2022-03-22 14:57:34.0264|Trace|Ocaramba.BaseConfiguration.get_Host|Gets the protocol from settings file 'automationpractice.com'
+2022-03-22 14:57:34.0264|Trace|Ocaramba.BaseConfiguration.get_Url|Gets the url from settings file ''
+2022-03-22 14:57:34.0264|Trace|Ocaramba.BaseConfiguration.get_GetUrlValue|Get Url value from settings file 'http://automationpractice.com'
+2022-03-22 14:57:34.0264|Trace|Ocaramba.BaseConfiguration.get_Protocol|Gets the protocol from settings file 'http'
+2022-03-22 14:57:34.0264|Trace|Ocaramba.BaseConfiguration.get_Host|Gets the protocol from settings file 'automationpractice.com'
+2022-03-22 14:57:34.0264|Trace|Ocaramba.BaseConfiguration.get_Url|Gets the url from settings file ''
+2022-03-22 14:57:34.0416|Info|Ocaramba.SeleniumTests.PageObjects.HomePage.OpenHomePage|Opening page http://automationpractice.com
+2022-03-22 14:57:38.3641|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-22 14:57:38.3641|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-22 14:57:38.3641|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-22 14:57:38.3641|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-22 14:57:42.0373|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-22 14:57:42.0373|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-22 14:57:42.1126|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-22 14:57:42.1126|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-22 14:57:42.1677|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-22 14:57:44.2966|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-22 14:57:44.2966|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-22 14:57:44.3646|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-22 14:57:44.3646|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-22 14:57:44.4287|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-22 14:57:44.4287|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-22 14:57:44.6821|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-22 14:57:44.6821|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-22 14:57:44.7314|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-22 14:57:44.7314|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-22 14:57:44.8244|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-22 14:57:44.8244|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-22 14:57:44.8776|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-22 14:57:44.8776|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-22 14:57:44.9698|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-22 14:57:44.9698|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-22 14:57:45.0509|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-22 14:57:45.0509|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-22 14:57:45.1099|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-22 14:57:45.1099|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-22 14:57:45.1572|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-22 14:57:45.1572|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-22 14:57:48.2977|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-22 14:57:48.2977|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-22 14:57:48.3270|Info|Ocaramba.Logger.TestLogger.Info|END: credentialCsv_Jan_Kowalski_aymer2_rackabzar_com_12345_1_1_1990_Jan_Kowalski_Objectivity_Strzalowa_12_m3_Poznan_1_12000_21_123123123_Main ends at 22.03.2022 14:57:48 after 14 sec.
+2022-03-22 14:57:48.3270|Info|Ocaramba.Logger.TestLogger.Info|*************************************************************************************
+2022-03-22 14:57:48.3270|Trace|Ocaramba.BaseConfiguration.get_JavaScriptErrorLogging|JavaScript error logging value from settings file 'false'
+2022-03-28 08:33:38.9435|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-28 08:33:38.9632|Trace|Ocaramba.BaseConfiguration.get_ChromeBrowserExecutableLocation|Gets the path and file name of the Chrome browser executable from settings file ''
+2022-03-28 08:33:38.9632|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverLog|Gets the PathToChromeDriverLog from settings file 'C:\Temp\chromedriver.log'
+2022-03-28 08:33:38.9632|Trace|Ocaramba.BaseConfiguration.get_EnableVerboseLoggingChrome|Verbose logging for Chrome value from settings file 'false'
+2022-03-28 08:33:38.9632|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverDirectory|Path to the directory containing Chrome Driver from settings file '..\..\..\..\chromedriver_win32'
+2022-03-28 08:33:38.9632|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverDirectory|Path to the directory containing Chrome Driver from settings file '..\..\..\..\chromedriver_win32'
+2022-03-28 08:33:38.9864|Trace|Ocaramba.BaseConfiguration.get_DownloadFolder|Get DownloadFolder value from settings file 'TestOutput'
+2022-03-28 08:33:39.0052|Trace|Ocaramba.BaseConfiguration.get_UseCurrentDirectory|Use Current Directory value from settings file 'true'
+2022-03-28 08:33:39.0065|Trace|Ocaramba.Helpers.FilesHelper.GetFolder|appConfigValue 'TestOutput', currentFolder 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1', UseCurrentDirectory 'True'
+2022-03-28 08:33:39.0065|Trace|Ocaramba.BaseConfiguration.get_UseCurrentDirectory|Use Current Directory value from settings file 'true'
+2022-03-28 08:33:39.0065|Trace|Ocaramba.Helpers.FilesHelper.GetFolder|Returned folder 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutput'
+2022-03-28 08:33:39.0065|Trace|Ocaramba.BaseConfiguration.get_Proxy|Gets the url from settings file ''
+2022-03-28 08:33:40.0835|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 08:33:40.0917|Info|Ocaramba.Logger.TestLogger.Info|*************************************************************************************
+2022-03-28 08:33:40.0917|Info|Ocaramba.Logger.TestLogger.Info|START: buyProductWithoutLogin starts at 28.03.2022 08:33:40.
+2022-03-28 08:33:40.1040|Trace|Ocaramba.BaseConfiguration.get_Protocol|Gets the protocol from settings file 'http'
+2022-03-28 08:33:40.1040|Trace|Ocaramba.BaseConfiguration.get_Host|Gets the protocol from settings file 'automationpractice.com'
+2022-03-28 08:33:40.1040|Trace|Ocaramba.BaseConfiguration.get_Url|Gets the url from settings file ''
+2022-03-28 08:33:40.1040|Trace|Ocaramba.BaseConfiguration.get_GetUrlValue|Get Url value from settings file 'http://automationpractice.com'
+2022-03-28 08:33:40.1040|Trace|Ocaramba.BaseConfiguration.get_Protocol|Gets the protocol from settings file 'http'
+2022-03-28 08:33:40.1040|Trace|Ocaramba.BaseConfiguration.get_Host|Gets the protocol from settings file 'automationpractice.com'
+2022-03-28 08:33:40.1040|Trace|Ocaramba.BaseConfiguration.get_Url|Gets the url from settings file ''
+2022-03-28 08:33:40.1040|Info|Ocaramba.SeleniumTests.PageObjects.HomePage.OpenHomePage|Opening page http://automationpractice.com
+2022-03-28 08:33:44.4275|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-28 08:33:44.4296|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-28 08:33:44.4486|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 08:33:44.4486|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 08:33:46.7398|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 08:33:46.7413|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 08:33:46.7903|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 08:33:46.7903|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 08:46:33.2471|Info|Ocaramba.Logger.TestLogger.Info|END: buyProductWithoutLogin ends at 28.03.2022 08:46:33 after 773 sec.
+2022-03-28 08:46:33.2471|Info|Ocaramba.Logger.TestLogger.Info|*************************************************************************************
+2022-03-28 08:46:33.2471|Trace|Ocaramba.BaseConfiguration.get_JavaScriptErrorLogging|JavaScript error logging value from settings file 'false'
+2022-03-28 08:49:56.7261|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-28 08:49:56.7457|Trace|Ocaramba.BaseConfiguration.get_ChromeBrowserExecutableLocation|Gets the path and file name of the Chrome browser executable from settings file ''
+2022-03-28 08:49:56.7457|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverLog|Gets the PathToChromeDriverLog from settings file 'C:\Temp\chromedriver.log'
+2022-03-28 08:49:56.7457|Trace|Ocaramba.BaseConfiguration.get_EnableVerboseLoggingChrome|Verbose logging for Chrome value from settings file 'false'
+2022-03-28 08:49:56.7457|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverDirectory|Path to the directory containing Chrome Driver from settings file '..\..\..\..\chromedriver_win32'
+2022-03-28 08:49:56.7457|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverDirectory|Path to the directory containing Chrome Driver from settings file '..\..\..\..\chromedriver_win32'
+2022-03-28 08:49:56.7677|Trace|Ocaramba.BaseConfiguration.get_DownloadFolder|Get DownloadFolder value from settings file 'TestOutput'
+2022-03-28 08:49:56.7792|Trace|Ocaramba.BaseConfiguration.get_UseCurrentDirectory|Use Current Directory value from settings file 'true'
+2022-03-28 08:49:56.7792|Trace|Ocaramba.Helpers.FilesHelper.GetFolder|appConfigValue 'TestOutput', currentFolder 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1', UseCurrentDirectory 'True'
+2022-03-28 08:49:56.7792|Trace|Ocaramba.BaseConfiguration.get_UseCurrentDirectory|Use Current Directory value from settings file 'true'
+2022-03-28 08:49:56.7792|Trace|Ocaramba.Helpers.FilesHelper.GetFolder|Returned folder 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutput'
+2022-03-28 08:49:56.7792|Trace|Ocaramba.BaseConfiguration.get_Proxy|Gets the url from settings file ''
+2022-03-28 08:49:57.5601|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 08:49:57.5689|Info|Ocaramba.Logger.TestLogger.Info|*************************************************************************************
+2022-03-28 08:49:57.5689|Info|Ocaramba.Logger.TestLogger.Info|START: credentialCsv_Jan_Kowalski_aymer2_rackabzar_com_12345_1_1_1990_Jan_Kowalski_Objectivity_Strzalowa_12_m3_Poznan_1_12000_21_123123123_Main starts at 28.03.2022 08:49:57.
+2022-03-28 08:49:57.5689|Trace|Ocaramba.BaseConfiguration.get_Protocol|Gets the protocol from settings file 'http'
+2022-03-28 08:49:57.5689|Trace|Ocaramba.BaseConfiguration.get_Host|Gets the protocol from settings file 'automationpractice.com'
+2022-03-28 08:49:57.5689|Trace|Ocaramba.BaseConfiguration.get_Url|Gets the url from settings file ''
+2022-03-28 08:49:57.5689|Trace|Ocaramba.BaseConfiguration.get_GetUrlValue|Get Url value from settings file 'http://automationpractice.com'
+2022-03-28 08:49:57.5689|Trace|Ocaramba.BaseConfiguration.get_Protocol|Gets the protocol from settings file 'http'
+2022-03-28 08:49:57.5689|Trace|Ocaramba.BaseConfiguration.get_Host|Gets the protocol from settings file 'automationpractice.com'
+2022-03-28 08:49:57.5689|Trace|Ocaramba.BaseConfiguration.get_Url|Gets the url from settings file ''
+2022-03-28 08:49:57.5689|Info|Ocaramba.SeleniumTests.PageObjects.HomePage.OpenHomePage|Opening page http://automationpractice.com
+2022-03-28 08:50:04.4941|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-28 08:50:04.4941|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-28 08:50:04.4941|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 08:50:04.4941|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 08:50:09.7671|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 08:50:09.7671|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 08:50:09.8521|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 08:50:09.8521|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 08:50:09.9163|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 08:50:24.4044|Trace|Ocaramba.BaseConfiguration.get_FullDesktopScreenShotEnabled|Full Desktop Screen Shot not supported in .NET Core 'false'
+2022-03-28 08:50:24.4044|Trace|Ocaramba.BaseConfiguration.get_SeleniumScreenShotEnabled|Selenium Screen Shot Enabled value from settings file 'true'
+2022-03-28 08:51:08.4661|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-28 08:51:08.4910|Trace|Ocaramba.BaseConfiguration.get_ChromeBrowserExecutableLocation|Gets the path and file name of the Chrome browser executable from settings file ''
+2022-03-28 08:51:08.4910|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverLog|Gets the PathToChromeDriverLog from settings file 'C:\Temp\chromedriver.log'
+2022-03-28 08:51:08.4910|Trace|Ocaramba.BaseConfiguration.get_EnableVerboseLoggingChrome|Verbose logging for Chrome value from settings file 'false'
+2022-03-28 08:51:08.4910|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverDirectory|Path to the directory containing Chrome Driver from settings file '..\..\..\..\chromedriver_win32'
+2022-03-28 08:51:08.4910|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverDirectory|Path to the directory containing Chrome Driver from settings file '..\..\..\..\chromedriver_win32'
+2022-03-28 08:51:08.5123|Trace|Ocaramba.BaseConfiguration.get_DownloadFolder|Get DownloadFolder value from settings file 'TestOutput'
+2022-03-28 08:51:08.5363|Trace|Ocaramba.BaseConfiguration.get_UseCurrentDirectory|Use Current Directory value from settings file 'true'
+2022-03-28 08:51:08.5379|Trace|Ocaramba.Helpers.FilesHelper.GetFolder|appConfigValue 'TestOutput', currentFolder 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1', UseCurrentDirectory 'True'
+2022-03-28 08:51:08.5379|Trace|Ocaramba.BaseConfiguration.get_UseCurrentDirectory|Use Current Directory value from settings file 'true'
+2022-03-28 08:51:08.5379|Trace|Ocaramba.Helpers.FilesHelper.GetFolder|Returned folder 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutput'
+2022-03-28 08:51:08.5379|Trace|Ocaramba.BaseConfiguration.get_Proxy|Gets the url from settings file ''
+2022-03-28 08:51:09.3863|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 08:51:09.3863|Info|Ocaramba.Logger.TestLogger.Info|*************************************************************************************
+2022-03-28 08:51:09.3863|Info|Ocaramba.Logger.TestLogger.Info|START: credentialCsv_Jan_Kowalski_aymer2_rackabzar_com_12345_1_1_1990_Jan_Kowalski_Objectivity_Strzalowa_12_m3_Poznan_1_12000_21_123123123_Main starts at 28.03.2022 08:51:09.
+2022-03-28 08:51:09.4007|Trace|Ocaramba.BaseConfiguration.get_Protocol|Gets the protocol from settings file 'http'
+2022-03-28 08:51:09.4007|Trace|Ocaramba.BaseConfiguration.get_Host|Gets the protocol from settings file 'automationpractice.com'
+2022-03-28 08:51:09.4007|Trace|Ocaramba.BaseConfiguration.get_Url|Gets the url from settings file ''
+2022-03-28 08:51:09.4007|Trace|Ocaramba.BaseConfiguration.get_GetUrlValue|Get Url value from settings file 'http://automationpractice.com'
+2022-03-28 08:51:09.4007|Trace|Ocaramba.BaseConfiguration.get_Protocol|Gets the protocol from settings file 'http'
+2022-03-28 08:51:09.4007|Trace|Ocaramba.BaseConfiguration.get_Host|Gets the protocol from settings file 'automationpractice.com'
+2022-03-28 08:51:09.4007|Trace|Ocaramba.BaseConfiguration.get_Url|Gets the url from settings file ''
+2022-03-28 08:51:09.4007|Info|Ocaramba.SeleniumTests.PageObjects.HomePage.OpenHomePage|Opening page http://automationpractice.com
+2022-03-28 08:51:13.3052|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-28 08:51:13.3052|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-28 08:51:13.3304|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 08:51:13.3304|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 08:51:16.7267|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 08:51:16.7267|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 08:51:16.7777|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 08:51:16.7777|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 08:51:17.8802|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 08:51:17.8811|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 08:51:19.3209|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 08:51:19.3209|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 08:53:26.8347|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-28 08:53:26.8612|Trace|Ocaramba.BaseConfiguration.get_ChromeBrowserExecutableLocation|Gets the path and file name of the Chrome browser executable from settings file ''
+2022-03-28 08:53:26.8662|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverLog|Gets the PathToChromeDriverLog from settings file 'C:\Temp\chromedriver.log'
+2022-03-28 08:53:26.8662|Trace|Ocaramba.BaseConfiguration.get_EnableVerboseLoggingChrome|Verbose logging for Chrome value from settings file 'false'
+2022-03-28 08:53:26.8662|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverDirectory|Path to the directory containing Chrome Driver from settings file '..\..\..\..\chromedriver_win32'
+2022-03-28 08:53:26.8662|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverDirectory|Path to the directory containing Chrome Driver from settings file '..\..\..\..\chromedriver_win32'
+2022-03-28 08:53:26.8662|Trace|Ocaramba.BaseConfiguration.get_DownloadFolder|Get DownloadFolder value from settings file 'TestOutput'
+2022-03-28 08:53:26.8964|Trace|Ocaramba.BaseConfiguration.get_UseCurrentDirectory|Use Current Directory value from settings file 'true'
+2022-03-28 08:53:26.8964|Trace|Ocaramba.Helpers.FilesHelper.GetFolder|appConfigValue 'TestOutput', currentFolder 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1', UseCurrentDirectory 'True'
+2022-03-28 08:53:26.8964|Trace|Ocaramba.BaseConfiguration.get_UseCurrentDirectory|Use Current Directory value from settings file 'true'
+2022-03-28 08:53:26.8964|Trace|Ocaramba.Helpers.FilesHelper.GetFolder|Returned folder 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutput'
+2022-03-28 08:53:26.8964|Trace|Ocaramba.BaseConfiguration.get_Proxy|Gets the url from settings file ''
+2022-03-28 08:53:27.7475|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 08:53:27.7475|Info|Ocaramba.Logger.TestLogger.Info|*************************************************************************************
+2022-03-28 08:53:27.7475|Info|Ocaramba.Logger.TestLogger.Info|START: credentialCsv_Jan_Kowalski_aymer2_rackabzar_com_12345_1_1_1990_Jan_Kowalski_Objectivity_Strzalowa_12_m3_Poznan_1_12000_21_123123123_Main starts at 28.03.2022 08:53:27.
+2022-03-28 08:53:27.7600|Trace|Ocaramba.BaseConfiguration.get_Protocol|Gets the protocol from settings file 'http'
+2022-03-28 08:53:27.7600|Trace|Ocaramba.BaseConfiguration.get_Host|Gets the protocol from settings file 'automationpractice.com'
+2022-03-28 08:53:27.7600|Trace|Ocaramba.BaseConfiguration.get_Url|Gets the url from settings file ''
+2022-03-28 08:53:27.7600|Trace|Ocaramba.BaseConfiguration.get_GetUrlValue|Get Url value from settings file 'http://automationpractice.com'
+2022-03-28 08:53:27.7600|Trace|Ocaramba.BaseConfiguration.get_Protocol|Gets the protocol from settings file 'http'
+2022-03-28 08:53:27.7600|Trace|Ocaramba.BaseConfiguration.get_Host|Gets the protocol from settings file 'automationpractice.com'
+2022-03-28 08:53:27.7600|Trace|Ocaramba.BaseConfiguration.get_Url|Gets the url from settings file ''
+2022-03-28 08:53:27.7720|Info|Ocaramba.SeleniumTests.PageObjects.HomePage.OpenHomePage|Opening page http://automationpractice.com
+2022-03-28 08:53:32.7263|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-28 08:53:32.7263|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-28 08:53:32.7518|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 08:53:32.7518|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 08:53:34.8375|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 08:53:34.8375|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 08:53:34.8857|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 08:53:34.8857|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 08:53:35.9769|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 08:53:35.9769|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 08:53:37.4997|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 08:53:37.4997|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 08:53:40.4413|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 08:53:40.4413|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 08:53:40.5094|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 08:53:40.5094|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 08:57:15.2161|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-28 08:57:15.2393|Trace|Ocaramba.BaseConfiguration.get_ChromeBrowserExecutableLocation|Gets the path and file name of the Chrome browser executable from settings file ''
+2022-03-28 08:57:15.2418|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverLog|Gets the PathToChromeDriverLog from settings file 'C:\Temp\chromedriver.log'
+2022-03-28 08:57:15.2418|Trace|Ocaramba.BaseConfiguration.get_EnableVerboseLoggingChrome|Verbose logging for Chrome value from settings file 'false'
+2022-03-28 08:57:15.2418|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverDirectory|Path to the directory containing Chrome Driver from settings file '..\..\..\..\chromedriver_win32'
+2022-03-28 08:57:15.2418|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverDirectory|Path to the directory containing Chrome Driver from settings file '..\..\..\..\chromedriver_win32'
+2022-03-28 08:57:15.2418|Trace|Ocaramba.BaseConfiguration.get_DownloadFolder|Get DownloadFolder value from settings file 'TestOutput'
+2022-03-28 08:57:15.2727|Trace|Ocaramba.BaseConfiguration.get_UseCurrentDirectory|Use Current Directory value from settings file 'true'
+2022-03-28 08:57:15.2727|Trace|Ocaramba.Helpers.FilesHelper.GetFolder|appConfigValue 'TestOutput', currentFolder 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1', UseCurrentDirectory 'True'
+2022-03-28 08:57:15.2727|Trace|Ocaramba.BaseConfiguration.get_UseCurrentDirectory|Use Current Directory value from settings file 'true'
+2022-03-28 08:57:15.2727|Trace|Ocaramba.Helpers.FilesHelper.GetFolder|Returned folder 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutput'
+2022-03-28 08:57:15.2727|Trace|Ocaramba.BaseConfiguration.get_Proxy|Gets the url from settings file ''
+2022-03-28 08:57:16.3974|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 08:57:16.3974|Info|Ocaramba.Logger.TestLogger.Info|*************************************************************************************
+2022-03-28 08:57:16.4129|Info|Ocaramba.Logger.TestLogger.Info|START: credentialCsv_Jan_Kowalski_aymer2_rackabzar_com_12345_1_1_1990_Jan_Kowalski_Objectivity_Strzalowa_12_m3_Poznan_1_12000_21_123123123_Main starts at 28.03.2022 08:57:16.
+2022-03-28 08:57:16.4129|Trace|Ocaramba.BaseConfiguration.get_Protocol|Gets the protocol from settings file 'http'
+2022-03-28 08:57:16.4129|Trace|Ocaramba.BaseConfiguration.get_Host|Gets the protocol from settings file 'automationpractice.com'
+2022-03-28 08:57:16.4129|Trace|Ocaramba.BaseConfiguration.get_Url|Gets the url from settings file ''
+2022-03-28 08:57:16.4129|Trace|Ocaramba.BaseConfiguration.get_GetUrlValue|Get Url value from settings file 'http://automationpractice.com'
+2022-03-28 08:57:16.4129|Trace|Ocaramba.BaseConfiguration.get_Protocol|Gets the protocol from settings file 'http'
+2022-03-28 08:57:16.4129|Trace|Ocaramba.BaseConfiguration.get_Host|Gets the protocol from settings file 'automationpractice.com'
+2022-03-28 08:57:16.4129|Trace|Ocaramba.BaseConfiguration.get_Url|Gets the url from settings file ''
+2022-03-28 08:57:16.4129|Info|Ocaramba.SeleniumTests.PageObjects.HomePage.OpenHomePage|Opening page http://automationpractice.com
+2022-03-28 08:57:23.9661|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-28 08:57:23.9661|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-28 08:57:23.9905|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 08:57:23.9922|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 08:57:32.9811|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 08:57:32.9811|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 08:57:33.0501|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 08:57:33.0501|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 08:57:36.2633|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 08:57:36.2633|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 08:57:43.8384|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 08:57:43.8384|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 08:57:54.8513|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 08:57:54.8513|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 08:57:54.9231|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 08:57:54.9231|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 08:57:54.9842|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 08:57:54.9842|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:09:27.2956|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-28 09:09:27.3112|Trace|Ocaramba.BaseConfiguration.get_ChromeBrowserExecutableLocation|Gets the path and file name of the Chrome browser executable from settings file ''
+2022-03-28 09:09:27.3112|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverLog|Gets the PathToChromeDriverLog from settings file 'C:\Temp\chromedriver.log'
+2022-03-28 09:09:27.3112|Trace|Ocaramba.BaseConfiguration.get_EnableVerboseLoggingChrome|Verbose logging for Chrome value from settings file 'false'
+2022-03-28 09:09:27.3112|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverDirectory|Path to the directory containing Chrome Driver from settings file '..\..\..\..\chromedriver_win32'
+2022-03-28 09:09:27.3112|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverDirectory|Path to the directory containing Chrome Driver from settings file '..\..\..\..\chromedriver_win32'
+2022-03-28 09:09:27.3201|Trace|Ocaramba.BaseConfiguration.get_DownloadFolder|Get DownloadFolder value from settings file 'TestOutput'
+2022-03-28 09:09:27.3201|Trace|Ocaramba.BaseConfiguration.get_UseCurrentDirectory|Use Current Directory value from settings file 'true'
+2022-03-28 09:09:27.3201|Trace|Ocaramba.Helpers.FilesHelper.GetFolder|appConfigValue 'TestOutput', currentFolder 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1', UseCurrentDirectory 'True'
+2022-03-28 09:09:27.3201|Trace|Ocaramba.BaseConfiguration.get_UseCurrentDirectory|Use Current Directory value from settings file 'true'
+2022-03-28 09:09:27.3347|Trace|Ocaramba.Helpers.FilesHelper.GetFolder|Returned folder 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutput'
+2022-03-28 09:09:27.3347|Trace|Ocaramba.BaseConfiguration.get_Proxy|Gets the url from settings file ''
+2022-03-28 09:09:28.1663|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:09:28.1663|Info|Ocaramba.Logger.TestLogger.Info|*************************************************************************************
+2022-03-28 09:09:28.1663|Info|Ocaramba.Logger.TestLogger.Info|START: credentialCsv_Jan_Kowalski_aymer2_rackabzar_com_12345_1_1_1990_Jan_Kowalski_Objectivity_Strzalowa_12_m3_Poznan_1_12000_21_123123123_Main starts at 28.03.2022 09:09:28.
+2022-03-28 09:09:28.1818|Trace|Ocaramba.BaseConfiguration.get_Protocol|Gets the protocol from settings file 'http'
+2022-03-28 09:09:28.1818|Trace|Ocaramba.BaseConfiguration.get_Host|Gets the protocol from settings file 'automationpractice.com'
+2022-03-28 09:09:28.1818|Trace|Ocaramba.BaseConfiguration.get_Url|Gets the url from settings file ''
+2022-03-28 09:09:28.1818|Trace|Ocaramba.BaseConfiguration.get_GetUrlValue|Get Url value from settings file 'http://automationpractice.com'
+2022-03-28 09:09:28.1818|Trace|Ocaramba.BaseConfiguration.get_Protocol|Gets the protocol from settings file 'http'
+2022-03-28 09:09:28.1818|Trace|Ocaramba.BaseConfiguration.get_Host|Gets the protocol from settings file 'automationpractice.com'
+2022-03-28 09:09:28.1818|Trace|Ocaramba.BaseConfiguration.get_Url|Gets the url from settings file ''
+2022-03-28 09:09:28.1818|Info|Ocaramba.SeleniumTests.PageObjects.HomePage.OpenHomePage|Opening page http://automationpractice.com
+2022-03-28 09:09:33.0561|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-28 09:09:33.0561|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-28 09:09:33.0817|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 09:09:33.0817|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:09:35.1226|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 09:09:35.1226|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:09:35.1656|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 09:09:35.1656|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:09:36.2654|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 09:09:36.2654|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:09:37.4167|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 09:09:37.4167|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:09:39.1363|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 09:09:39.1363|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:09:39.2073|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 09:09:39.2073|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:09:39.2697|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 09:09:39.2697|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:09:40.9490|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 09:09:40.9490|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:09:41.9841|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 09:09:41.9841|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:10:12.4397|Trace|Ocaramba.BaseConfiguration.get_FullDesktopScreenShotEnabled|Full Desktop Screen Shot not supported in .NET Core 'false'
+2022-03-28 09:10:12.4397|Trace|Ocaramba.BaseConfiguration.get_SeleniumScreenShotEnabled|Selenium Screen Shot Enabled value from settings file 'true'
+2022-03-28 09:10:12.5488|Trace|Ocaramba.BaseConfiguration.get_ScreenShotFolder|Get ScreenShotFolder value from settings file 'TestOutput'
+2022-03-28 09:10:12.5541|Trace|Ocaramba.BaseConfiguration.get_UseCurrentDirectory|Use Current Directory value from settings file 'true'
+2022-03-28 09:10:12.5541|Trace|Ocaramba.Helpers.FilesHelper.GetFolder|appConfigValue 'TestOutput', currentFolder 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1', UseCurrentDirectory 'True'
+2022-03-28 09:10:12.5541|Trace|Ocaramba.BaseConfiguration.get_UseCurrentDirectory|Use Current Directory value from settings file 'true'
+2022-03-28 09:10:12.5541|Trace|Ocaramba.Helpers.FilesHelper.GetFolder|Returned folder 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutput'
+2022-03-28 09:10:12.5541|Debug|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is 277 characters
+2022-03-28 09:10:12.5541|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:10:12.5541|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJan_Kowalski_aymer2_rackabzar_com_12345_1_1_1990_Jan_Kowalski_Objectivity_Strzalowa_12_m3_Poznan_1_12000_21_123123123_Main_2022_03_28_09_10_12_548_browser.png
+2022-03-28 09:10:12.5541|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:10:12.5541|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalski_aymer2_rackabzar_com_12345_1_1_1990_Jan_Kowalski_Objectivity_Strzalowa_12_m3_Poznan_1_12000_21_123123123_Main_2022_03_28_09_10_12_548_browser.png
+2022-03-28 09:10:12.5541|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:10:12.5541|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalskiaymer2_rackabzar_com_12345_1_1_1990_Jan_Kowalski_Objectivity_Strzalowa_12_m3_Poznan_1_12000_21_123123123_Main_2022_03_28_09_10_12_548_browser.png
+2022-03-28 09:10:12.5541|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:10:12.5541|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalskiaymer2rackabzar_com_12345_1_1_1990_Jan_Kowalski_Objectivity_Strzalowa_12_m3_Poznan_1_12000_21_123123123_Main_2022_03_28_09_10_12_548_browser.png
+2022-03-28 09:10:12.5541|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:10:12.5541|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalskiaymer2rackabzarcom_12345_1_1_1990_Jan_Kowalski_Objectivity_Strzalowa_12_m3_Poznan_1_12000_21_123123123_Main_2022_03_28_09_10_12_548_browser.png
+2022-03-28 09:10:12.5541|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:10:12.5541|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalskiaymer2rackabzarcom12345_1_1_1990_Jan_Kowalski_Objectivity_Strzalowa_12_m3_Poznan_1_12000_21_123123123_Main_2022_03_28_09_10_12_548_browser.png
+2022-03-28 09:10:12.5541|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:10:12.5541|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalskiaymer2rackabzarcom123451_1_1990_Jan_Kowalski_Objectivity_Strzalowa_12_m3_Poznan_1_12000_21_123123123_Main_2022_03_28_09_10_12_548_browser.png
+2022-03-28 09:10:12.5541|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:10:12.5541|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalskiaymer2rackabzarcom1234511_1990_Jan_Kowalski_Objectivity_Strzalowa_12_m3_Poznan_1_12000_21_123123123_Main_2022_03_28_09_10_12_548_browser.png
+2022-03-28 09:10:12.5541|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:10:12.5541|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalskiaymer2rackabzarcom12345111990_Jan_Kowalski_Objectivity_Strzalowa_12_m3_Poznan_1_12000_21_123123123_Main_2022_03_28_09_10_12_548_browser.png
+2022-03-28 09:10:12.5684|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:10:12.5684|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalskiaymer2rackabzarcom12345111990Jan_Kowalski_Objectivity_Strzalowa_12_m3_Poznan_1_12000_21_123123123_Main_2022_03_28_09_10_12_548_browser.png
+2022-03-28 09:10:12.5684|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:10:12.5684|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalskiaymer2rackabzarcom12345111990JanKowalski_Objectivity_Strzalowa_12_m3_Poznan_1_12000_21_123123123_Main_2022_03_28_09_10_12_548_browser.png
+2022-03-28 09:10:12.5684|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:10:12.5684|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalskiaymer2rackabzarcom12345111990JanKowalskiObjectivity_Strzalowa_12_m3_Poznan_1_12000_21_123123123_Main_2022_03_28_09_10_12_548_browser.png
+2022-03-28 09:10:12.5684|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:10:12.5684|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalskiaymer2rackabzarcom12345111990JanKowalskiObjectivityStrzalowa_12_m3_Poznan_1_12000_21_123123123_Main_2022_03_28_09_10_12_548_browser.png
+2022-03-28 09:10:12.5684|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:10:12.5684|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalskiaymer2rackabzarcom12345111990JanKowalskiObjectivityStrzalowa12_m3_Poznan_1_12000_21_123123123_Main_2022_03_28_09_10_12_548_browser.png
+2022-03-28 09:10:12.5684|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:10:12.5684|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalskiaymer2rackabzarcom12345111990JanKowalskiObjectivityStrzalowa12m3_Poznan_1_12000_21_123123123_Main_2022_03_28_09_10_12_548_browser.png
+2022-03-28 09:10:12.5684|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:10:12.5684|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalskiaymer2rackabzarcom12345111990JanKowalskiObjectivityStrzalowa12m3Poznan_1_12000_21_123123123_Main_2022_03_28_09_10_12_548_browser.png
+2022-03-28 09:10:12.5684|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:10:12.5684|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalskiaymer2rackabzarcom12345111990JanKowalskiObjectivityStrzalowa12m3Poznan1_12000_21_123123123_Main_2022_03_28_09_10_12_548_browser.png
+2022-03-28 09:10:12.5684|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:10:12.5684|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalskiaymer2rackabzarcom12345111990JanKowalskiObjectivityStrzalowa12m3Poznan112000_21_123123123_Main_2022_03_28_09_10_12_548_browser.png
+2022-03-28 09:10:12.5684|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:10:12.5684|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalskiaymer2rackabzarcom12345111990JanKowalskiObjectivityStrzalowa12m3Poznan11200021_123123123_Main_2022_03_28_09_10_12_548_browser.png
+2022-03-28 09:10:12.5684|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:10:12.5684|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalskiaymer2rackabzarcom12345111990JanKowalskiObjectivityStrzalowa12m3Poznan11200021123123123_Main_2022_03_28_09_10_12_548_browser.png
+2022-03-28 09:10:12.5684|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:10:12.5684|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalskiaymer2rackabzarcom12345111990JanKowalskiObjectivityStrzalowa12m3Poznan11200021123123123Main_2022_03_28_09_10_12_548_browser.png
+2022-03-28 09:10:12.5684|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:10:12.5684|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalskiaymer2rackabzarcom12345111990JanKowalskiObjectivityStrzalowa12m3Poznan11200021123123123Main2022_03_28_09_10_12_548_browser.png
+2022-03-28 09:10:12.5684|Trace|Ocaramba.BaseConfiguration.get_ShortTimeout|Gets the shortTimeout from settings file '3'
+2022-03-28 09:10:12.5684|Debug|Ocaramba.Helpers.FilesHelper.WaitForFileOfGivenName|Wait for file: credentialCsvJanKowalskiaymer2rackabzarcom12345111990JanKowalskiObjectivityStrzalowa12m3Poznan11200021123123123Main2022_03_28_09_10_12_548_browser.png
+2022-03-28 09:10:13.5865|Debug|Ocaramba.Helpers.FilesHelper.WaitForFileOfGivenName|File exists
+2022-03-28 09:10:13.5865|Debug|Ocaramba.Helpers.FilesHelper.WaitForFileOfGivenName|Checking if size of last file > 0 bytes
+2022-03-28 09:10:13.5865|Debug|Ocaramba.Helpers.FilesHelper.GetFileByName|Get File 'credentialCsvJanKowalskiaymer2rackabzarcom12345111990JanKowalskiObjectivityStrzalowa12m3Poznan11200021123123123Main2022_03_28_09_10_12_548_browser.png' from 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutput'
+2022-03-28 09:10:14.5956|Error|Ocaramba.DriverContext.SaveScreenshot|Test failed: screenshot saved to C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutput\credentialCsvJanKowalskiaymer2rackabzarcom12345111990JanKowalskiObjectivityStrzalowa12m3Poznan11200021123123123Main2022_03_28_09_10_12_548_browser.png.
+2022-03-28 09:10:14.6003|Trace|Ocaramba.BaseConfiguration.get_GetPageSourceEnabled|Get Page Source Enabled value from settings file 'false'
+2022-03-28 09:10:14.6003|Info|Ocaramba.Logger.TestLogger.Info|Uploading file [C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutput\credentialCsvJanKowalskiaymer2rackabzarcom12345111990JanKowalskiObjectivityStrzalowa12m3Poznan11200021123123123Main2022_03_28_09_10_12_548_browser.png] to test context
+2022-03-28 09:10:14.6003|Info|Ocaramba.Logger.TestLogger.Info|END: credentialCsv_Jan_Kowalski_aymer2_rackabzar_com_12345_1_1_1990_Jan_Kowalski_Objectivity_Strzalowa_12_m3_Poznan_1_12000_21_123123123_Main ends at 28.03.2022 09:10:14 after 46 sec.
+2022-03-28 09:10:14.6003|Info|Ocaramba.Logger.TestLogger.Info|*************************************************************************************
+2022-03-28 09:10:14.6003|Trace|Ocaramba.BaseConfiguration.get_JavaScriptErrorLogging|JavaScript error logging value from settings file 'false'
+2022-03-28 09:12:52.1938|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-28 09:12:52.1938|Trace|Ocaramba.BaseConfiguration.get_ChromeBrowserExecutableLocation|Gets the path and file name of the Chrome browser executable from settings file ''
+2022-03-28 09:12:52.2114|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverLog|Gets the PathToChromeDriverLog from settings file 'C:\Temp\chromedriver.log'
+2022-03-28 09:12:52.2114|Trace|Ocaramba.BaseConfiguration.get_EnableVerboseLoggingChrome|Verbose logging for Chrome value from settings file 'false'
+2022-03-28 09:12:52.2114|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverDirectory|Path to the directory containing Chrome Driver from settings file '..\..\..\..\chromedriver_win32'
+2022-03-28 09:12:52.2114|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverDirectory|Path to the directory containing Chrome Driver from settings file '..\..\..\..\chromedriver_win32'
+2022-03-28 09:12:52.2114|Trace|Ocaramba.BaseConfiguration.get_DownloadFolder|Get DownloadFolder value from settings file 'TestOutput'
+2022-03-28 09:12:52.2305|Trace|Ocaramba.BaseConfiguration.get_UseCurrentDirectory|Use Current Directory value from settings file 'true'
+2022-03-28 09:12:52.2305|Trace|Ocaramba.Helpers.FilesHelper.GetFolder|appConfigValue 'TestOutput', currentFolder 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1', UseCurrentDirectory 'True'
+2022-03-28 09:12:52.2305|Trace|Ocaramba.BaseConfiguration.get_UseCurrentDirectory|Use Current Directory value from settings file 'true'
+2022-03-28 09:12:52.2305|Trace|Ocaramba.Helpers.FilesHelper.GetFolder|Returned folder 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutput'
+2022-03-28 09:12:52.2305|Trace|Ocaramba.BaseConfiguration.get_Proxy|Gets the url from settings file ''
+2022-03-28 09:12:53.2739|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:12:53.2739|Info|Ocaramba.Logger.TestLogger.Info|*************************************************************************************
+2022-03-28 09:12:53.2739|Info|Ocaramba.Logger.TestLogger.Info|START: credentialCsv_Jan_Kowalski_aymer2_rackabzar_com_12345_1_1_1990_Jan_Kowalski_Objectivity_Strzalowa_12_m3_Poznan_1_12000_21_123123123_Main starts at 28.03.2022 09:12:53.
+2022-03-28 09:12:53.2739|Trace|Ocaramba.BaseConfiguration.get_Protocol|Gets the protocol from settings file 'http'
+2022-03-28 09:12:53.2739|Trace|Ocaramba.BaseConfiguration.get_Host|Gets the protocol from settings file 'automationpractice.com'
+2022-03-28 09:12:53.2880|Trace|Ocaramba.BaseConfiguration.get_Url|Gets the url from settings file ''
+2022-03-28 09:12:53.2880|Trace|Ocaramba.BaseConfiguration.get_GetUrlValue|Get Url value from settings file 'http://automationpractice.com'
+2022-03-28 09:12:53.2880|Trace|Ocaramba.BaseConfiguration.get_Protocol|Gets the protocol from settings file 'http'
+2022-03-28 09:12:53.2880|Trace|Ocaramba.BaseConfiguration.get_Host|Gets the protocol from settings file 'automationpractice.com'
+2022-03-28 09:12:53.2880|Trace|Ocaramba.BaseConfiguration.get_Url|Gets the url from settings file ''
+2022-03-28 09:12:53.2880|Info|Ocaramba.SeleniumTests.PageObjects.HomePage.OpenHomePage|Opening page http://automationpractice.com
+2022-03-28 09:12:58.3071|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-28 09:12:58.3071|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-28 09:12:58.3305|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 09:12:58.3305|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:13:00.1541|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 09:13:00.1541|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:13:00.2029|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 09:13:00.2029|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:13:01.3068|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 09:13:01.3068|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:13:04.5088|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 09:13:04.5088|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:13:07.5002|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 09:13:07.5002|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:13:07.5723|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 09:13:07.5723|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:13:07.6272|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 09:13:07.6272|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:13:09.3453|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 09:13:09.3453|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:13:12.3229|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 09:13:12.3229|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:13:15.6554|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 09:13:15.6554|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:13:16.6395|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 09:13:16.6395|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:13:46.7155|Trace|Ocaramba.BaseConfiguration.get_FullDesktopScreenShotEnabled|Full Desktop Screen Shot not supported in .NET Core 'false'
+2022-03-28 09:13:46.7155|Trace|Ocaramba.BaseConfiguration.get_SeleniumScreenShotEnabled|Selenium Screen Shot Enabled value from settings file 'true'
+2022-03-28 09:13:46.8032|Trace|Ocaramba.BaseConfiguration.get_ScreenShotFolder|Get ScreenShotFolder value from settings file 'TestOutput'
+2022-03-28 09:13:46.8049|Trace|Ocaramba.BaseConfiguration.get_UseCurrentDirectory|Use Current Directory value from settings file 'true'
+2022-03-28 09:13:46.8049|Trace|Ocaramba.Helpers.FilesHelper.GetFolder|appConfigValue 'TestOutput', currentFolder 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1', UseCurrentDirectory 'True'
+2022-03-28 09:13:46.8049|Trace|Ocaramba.BaseConfiguration.get_UseCurrentDirectory|Use Current Directory value from settings file 'true'
+2022-03-28 09:13:46.8049|Trace|Ocaramba.Helpers.FilesHelper.GetFolder|Returned folder 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutput'
+2022-03-28 09:13:46.8049|Debug|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is 277 characters
+2022-03-28 09:13:46.8049|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:13:46.8049|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJan_Kowalski_aymer2_rackabzar_com_12345_1_1_1990_Jan_Kowalski_Objectivity_Strzalowa_12_m3_Poznan_1_12000_21_123123123_Main_2022_03_28_09_13_46_803_browser.png
+2022-03-28 09:13:46.8049|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:13:46.8049|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalski_aymer2_rackabzar_com_12345_1_1_1990_Jan_Kowalski_Objectivity_Strzalowa_12_m3_Poznan_1_12000_21_123123123_Main_2022_03_28_09_13_46_803_browser.png
+2022-03-28 09:13:46.8049|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:13:46.8049|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalskiaymer2_rackabzar_com_12345_1_1_1990_Jan_Kowalski_Objectivity_Strzalowa_12_m3_Poznan_1_12000_21_123123123_Main_2022_03_28_09_13_46_803_browser.png
+2022-03-28 09:13:46.8049|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:13:46.8049|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalskiaymer2rackabzar_com_12345_1_1_1990_Jan_Kowalski_Objectivity_Strzalowa_12_m3_Poznan_1_12000_21_123123123_Main_2022_03_28_09_13_46_803_browser.png
+2022-03-28 09:13:46.8049|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:13:46.8049|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalskiaymer2rackabzarcom_12345_1_1_1990_Jan_Kowalski_Objectivity_Strzalowa_12_m3_Poznan_1_12000_21_123123123_Main_2022_03_28_09_13_46_803_browser.png
+2022-03-28 09:13:46.8049|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:13:46.8049|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalskiaymer2rackabzarcom12345_1_1_1990_Jan_Kowalski_Objectivity_Strzalowa_12_m3_Poznan_1_12000_21_123123123_Main_2022_03_28_09_13_46_803_browser.png
+2022-03-28 09:13:46.8049|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:13:46.8049|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalskiaymer2rackabzarcom123451_1_1990_Jan_Kowalski_Objectivity_Strzalowa_12_m3_Poznan_1_12000_21_123123123_Main_2022_03_28_09_13_46_803_browser.png
+2022-03-28 09:13:46.8049|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:13:46.8049|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalskiaymer2rackabzarcom1234511_1990_Jan_Kowalski_Objectivity_Strzalowa_12_m3_Poznan_1_12000_21_123123123_Main_2022_03_28_09_13_46_803_browser.png
+2022-03-28 09:13:46.8049|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:13:46.8049|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalskiaymer2rackabzarcom12345111990_Jan_Kowalski_Objectivity_Strzalowa_12_m3_Poznan_1_12000_21_123123123_Main_2022_03_28_09_13_46_803_browser.png
+2022-03-28 09:13:46.8186|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:13:46.8186|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalskiaymer2rackabzarcom12345111990Jan_Kowalski_Objectivity_Strzalowa_12_m3_Poznan_1_12000_21_123123123_Main_2022_03_28_09_13_46_803_browser.png
+2022-03-28 09:13:46.8186|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:13:46.8186|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalskiaymer2rackabzarcom12345111990JanKowalski_Objectivity_Strzalowa_12_m3_Poznan_1_12000_21_123123123_Main_2022_03_28_09_13_46_803_browser.png
+2022-03-28 09:13:46.8186|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:13:46.8186|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalskiaymer2rackabzarcom12345111990JanKowalskiObjectivity_Strzalowa_12_m3_Poznan_1_12000_21_123123123_Main_2022_03_28_09_13_46_803_browser.png
+2022-03-28 09:13:46.8186|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:13:46.8186|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalskiaymer2rackabzarcom12345111990JanKowalskiObjectivityStrzalowa_12_m3_Poznan_1_12000_21_123123123_Main_2022_03_28_09_13_46_803_browser.png
+2022-03-28 09:13:46.8186|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:13:46.8186|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalskiaymer2rackabzarcom12345111990JanKowalskiObjectivityStrzalowa12_m3_Poznan_1_12000_21_123123123_Main_2022_03_28_09_13_46_803_browser.png
+2022-03-28 09:13:46.8186|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:13:46.8186|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalskiaymer2rackabzarcom12345111990JanKowalskiObjectivityStrzalowa12m3_Poznan_1_12000_21_123123123_Main_2022_03_28_09_13_46_803_browser.png
+2022-03-28 09:13:46.8186|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:13:46.8186|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalskiaymer2rackabzarcom12345111990JanKowalskiObjectivityStrzalowa12m3Poznan_1_12000_21_123123123_Main_2022_03_28_09_13_46_803_browser.png
+2022-03-28 09:13:46.8186|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:13:46.8186|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalskiaymer2rackabzarcom12345111990JanKowalskiObjectivityStrzalowa12m3Poznan1_12000_21_123123123_Main_2022_03_28_09_13_46_803_browser.png
+2022-03-28 09:13:46.8186|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:13:46.8186|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalskiaymer2rackabzarcom12345111990JanKowalskiObjectivityStrzalowa12m3Poznan112000_21_123123123_Main_2022_03_28_09_13_46_803_browser.png
+2022-03-28 09:13:46.8186|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:13:46.8186|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalskiaymer2rackabzarcom12345111990JanKowalskiObjectivityStrzalowa12m3Poznan11200021_123123123_Main_2022_03_28_09_13_46_803_browser.png
+2022-03-28 09:13:46.8186|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:13:46.8186|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalskiaymer2rackabzarcom12345111990JanKowalskiObjectivityStrzalowa12m3Poznan11200021123123123_Main_2022_03_28_09_13_46_803_browser.png
+2022-03-28 09:13:46.8186|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:13:46.8186|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalskiaymer2rackabzarcom12345111990JanKowalskiObjectivityStrzalowa12m3Poznan11200021123123123Main_2022_03_28_09_13_46_803_browser.png
+2022-03-28 09:13:46.8186|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:13:46.8186|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalskiaymer2rackabzarcom12345111990JanKowalskiObjectivityStrzalowa12m3Poznan11200021123123123Main2022_03_28_09_13_46_803_browser.png
+2022-03-28 09:13:46.8186|Trace|Ocaramba.BaseConfiguration.get_ShortTimeout|Gets the shortTimeout from settings file '3'
+2022-03-28 09:13:46.8186|Debug|Ocaramba.Helpers.FilesHelper.WaitForFileOfGivenName|Wait for file: credentialCsvJanKowalskiaymer2rackabzarcom12345111990JanKowalskiObjectivityStrzalowa12m3Poznan11200021123123123Main2022_03_28_09_13_46_803_browser.png
+2022-03-28 09:13:47.8444|Debug|Ocaramba.Helpers.FilesHelper.WaitForFileOfGivenName|File exists
+2022-03-28 09:13:47.8444|Debug|Ocaramba.Helpers.FilesHelper.WaitForFileOfGivenName|Checking if size of last file > 0 bytes
+2022-03-28 09:13:47.8444|Debug|Ocaramba.Helpers.FilesHelper.GetFileByName|Get File 'credentialCsvJanKowalskiaymer2rackabzarcom12345111990JanKowalskiObjectivityStrzalowa12m3Poznan11200021123123123Main2022_03_28_09_13_46_803_browser.png' from 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutput'
+2022-03-28 09:13:48.8580|Error|Ocaramba.DriverContext.SaveScreenshot|Test failed: screenshot saved to C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutput\credentialCsvJanKowalskiaymer2rackabzarcom12345111990JanKowalskiObjectivityStrzalowa12m3Poznan11200021123123123Main2022_03_28_09_13_46_803_browser.png.
+2022-03-28 09:13:48.8580|Trace|Ocaramba.BaseConfiguration.get_GetPageSourceEnabled|Get Page Source Enabled value from settings file 'false'
+2022-03-28 09:13:48.8580|Info|Ocaramba.Logger.TestLogger.Info|Uploading file [C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutput\credentialCsvJanKowalskiaymer2rackabzarcom12345111990JanKowalskiObjectivityStrzalowa12m3Poznan11200021123123123Main2022_03_28_09_13_46_803_browser.png] to test context
+2022-03-28 09:13:48.8580|Info|Ocaramba.Logger.TestLogger.Info|END: credentialCsv_Jan_Kowalski_aymer2_rackabzar_com_12345_1_1_1990_Jan_Kowalski_Objectivity_Strzalowa_12_m3_Poznan_1_12000_21_123123123_Main ends at 28.03.2022 09:13:48 after 56 sec.
+2022-03-28 09:13:48.8580|Info|Ocaramba.Logger.TestLogger.Info|*************************************************************************************
+2022-03-28 09:13:48.8580|Trace|Ocaramba.BaseConfiguration.get_JavaScriptErrorLogging|JavaScript error logging value from settings file 'false'
+2022-03-28 09:19:36.6609|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-28 09:19:36.6832|Trace|Ocaramba.BaseConfiguration.get_ChromeBrowserExecutableLocation|Gets the path and file name of the Chrome browser executable from settings file ''
+2022-03-28 09:19:36.6832|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverLog|Gets the PathToChromeDriverLog from settings file 'C:\Temp\chromedriver.log'
+2022-03-28 09:19:36.6832|Trace|Ocaramba.BaseConfiguration.get_EnableVerboseLoggingChrome|Verbose logging for Chrome value from settings file 'false'
+2022-03-28 09:19:36.6832|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverDirectory|Path to the directory containing Chrome Driver from settings file '..\..\..\..\chromedriver_win32'
+2022-03-28 09:19:36.6832|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverDirectory|Path to the directory containing Chrome Driver from settings file '..\..\..\..\chromedriver_win32'
+2022-03-28 09:19:36.7037|Trace|Ocaramba.BaseConfiguration.get_DownloadFolder|Get DownloadFolder value from settings file 'TestOutput'
+2022-03-28 09:19:36.7217|Trace|Ocaramba.BaseConfiguration.get_UseCurrentDirectory|Use Current Directory value from settings file 'true'
+2022-03-28 09:19:36.7217|Trace|Ocaramba.Helpers.FilesHelper.GetFolder|appConfigValue 'TestOutput', currentFolder 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1', UseCurrentDirectory 'True'
+2022-03-28 09:19:36.7217|Trace|Ocaramba.BaseConfiguration.get_UseCurrentDirectory|Use Current Directory value from settings file 'true'
+2022-03-28 09:19:36.7217|Trace|Ocaramba.Helpers.FilesHelper.GetFolder|Returned folder 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutput'
+2022-03-28 09:19:36.7257|Trace|Ocaramba.BaseConfiguration.get_Proxy|Gets the url from settings file ''
+2022-03-28 09:19:37.6230|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:19:37.6326|Info|Ocaramba.Logger.TestLogger.Info|*************************************************************************************
+2022-03-28 09:19:37.6326|Info|Ocaramba.Logger.TestLogger.Info|START: credentialCsv_Jan_Kowalski_aymer2_rackabzar_com_12345_1_1_1990_Jan_Kowalski_Objectivity_Strzalowa_12_m3_Poznan_1_12000_21_123123123_Main starts at 28.03.2022 09:19:37.
+2022-03-28 09:19:37.6326|Trace|Ocaramba.BaseConfiguration.get_Protocol|Gets the protocol from settings file 'http'
+2022-03-28 09:19:37.6326|Trace|Ocaramba.BaseConfiguration.get_Host|Gets the protocol from settings file 'automationpractice.com'
+2022-03-28 09:19:37.6326|Trace|Ocaramba.BaseConfiguration.get_Url|Gets the url from settings file ''
+2022-03-28 09:19:37.6326|Trace|Ocaramba.BaseConfiguration.get_GetUrlValue|Get Url value from settings file 'http://automationpractice.com'
+2022-03-28 09:19:37.6326|Trace|Ocaramba.BaseConfiguration.get_Protocol|Gets the protocol from settings file 'http'
+2022-03-28 09:19:37.6326|Trace|Ocaramba.BaseConfiguration.get_Host|Gets the protocol from settings file 'automationpractice.com'
+2022-03-28 09:19:37.6326|Trace|Ocaramba.BaseConfiguration.get_Url|Gets the url from settings file ''
+2022-03-28 09:19:37.6483|Info|Ocaramba.SeleniumTests.PageObjects.HomePage.OpenHomePage|Opening page http://automationpractice.com
+2022-03-28 09:19:48.3074|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-28 09:19:48.3074|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-28 09:19:48.3302|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 09:19:48.3302|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:19:57.4027|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 09:19:57.4027|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:19:57.4550|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 09:19:57.4550|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:20:02.2552|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 09:20:02.2552|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:20:10.7161|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 09:20:10.7161|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:20:19.0467|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 09:20:19.0467|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:20:19.1111|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 09:20:19.1111|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:20:19.1665|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 09:20:19.1665|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:20:24.1117|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 09:20:24.1117|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:20:25.4934|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 09:20:25.4934|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:20:26.5733|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 09:20:26.5733|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:26:03.1845|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-28 09:26:03.2015|Trace|Ocaramba.BaseConfiguration.get_ChromeBrowserExecutableLocation|Gets the path and file name of the Chrome browser executable from settings file ''
+2022-03-28 09:26:03.2015|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverLog|Gets the PathToChromeDriverLog from settings file 'C:\Temp\chromedriver.log'
+2022-03-28 09:26:03.2015|Trace|Ocaramba.BaseConfiguration.get_EnableVerboseLoggingChrome|Verbose logging for Chrome value from settings file 'false'
+2022-03-28 09:26:03.2015|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverDirectory|Path to the directory containing Chrome Driver from settings file '..\..\..\..\chromedriver_win32'
+2022-03-28 09:26:03.2015|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverDirectory|Path to the directory containing Chrome Driver from settings file '..\..\..\..\chromedriver_win32'
+2022-03-28 09:26:03.2109|Trace|Ocaramba.BaseConfiguration.get_DownloadFolder|Get DownloadFolder value from settings file 'TestOutput'
+2022-03-28 09:26:03.2109|Trace|Ocaramba.BaseConfiguration.get_UseCurrentDirectory|Use Current Directory value from settings file 'true'
+2022-03-28 09:26:03.2109|Trace|Ocaramba.Helpers.FilesHelper.GetFolder|appConfigValue 'TestOutput', currentFolder 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1', UseCurrentDirectory 'True'
+2022-03-28 09:26:03.2109|Trace|Ocaramba.BaseConfiguration.get_UseCurrentDirectory|Use Current Directory value from settings file 'true'
+2022-03-28 09:26:03.2250|Trace|Ocaramba.Helpers.FilesHelper.GetFolder|Returned folder 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutput'
+2022-03-28 09:26:03.2250|Trace|Ocaramba.BaseConfiguration.get_Proxy|Gets the url from settings file ''
+2022-03-28 09:26:04.0152|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:26:04.0215|Info|Ocaramba.Logger.TestLogger.Info|*************************************************************************************
+2022-03-28 09:26:04.0215|Info|Ocaramba.Logger.TestLogger.Info|START: credentialCsv_Jan_Kowalski_aymer2_rackabzar_com_12345_1_1_1990_Jan_Kowalski_Objectivity_Strzalowa_12_m3_Poznan_1_12000_21_123123123_Main starts at 28.03.2022 09:26:04.
+2022-03-28 09:26:04.0215|Trace|Ocaramba.BaseConfiguration.get_Protocol|Gets the protocol from settings file 'http'
+2022-03-28 09:26:04.0215|Trace|Ocaramba.BaseConfiguration.get_Host|Gets the protocol from settings file 'automationpractice.com'
+2022-03-28 09:26:04.0215|Trace|Ocaramba.BaseConfiguration.get_Url|Gets the url from settings file ''
+2022-03-28 09:26:04.0215|Trace|Ocaramba.BaseConfiguration.get_GetUrlValue|Get Url value from settings file 'http://automationpractice.com'
+2022-03-28 09:26:04.0215|Trace|Ocaramba.BaseConfiguration.get_Protocol|Gets the protocol from settings file 'http'
+2022-03-28 09:26:04.0215|Trace|Ocaramba.BaseConfiguration.get_Host|Gets the protocol from settings file 'automationpractice.com'
+2022-03-28 09:26:04.0215|Trace|Ocaramba.BaseConfiguration.get_Url|Gets the url from settings file ''
+2022-03-28 09:26:04.0215|Info|Ocaramba.SeleniumTests.PageObjects.HomePage.OpenHomePage|Opening page http://automationpractice.com
+2022-03-28 09:26:09.0738|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-28 09:26:09.0738|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-28 09:26:09.0973|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 09:26:09.0973|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:26:11.4303|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 09:26:11.4303|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:26:11.4800|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 09:26:11.4800|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:26:12.5749|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 09:26:12.5749|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:26:13.9548|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 09:26:13.9548|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:26:16.7241|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 09:26:16.7249|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:26:16.7901|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 09:26:16.7901|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:26:16.8458|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 09:26:16.8458|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:26:18.6647|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 09:26:18.6647|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:26:20.6415|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 09:26:20.6415|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:26:22.5228|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 09:26:22.5228|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:26:25.5441|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 09:26:25.5441|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:26:31.8206|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 09:26:31.8206|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:27:01.8862|Trace|Ocaramba.BaseConfiguration.get_FullDesktopScreenShotEnabled|Full Desktop Screen Shot not supported in .NET Core 'false'
+2022-03-28 09:27:01.8862|Trace|Ocaramba.BaseConfiguration.get_SeleniumScreenShotEnabled|Selenium Screen Shot Enabled value from settings file 'true'
+2022-03-28 09:27:01.9861|Trace|Ocaramba.BaseConfiguration.get_ScreenShotFolder|Get ScreenShotFolder value from settings file 'TestOutput'
+2022-03-28 09:27:01.9861|Trace|Ocaramba.BaseConfiguration.get_UseCurrentDirectory|Use Current Directory value from settings file 'true'
+2022-03-28 09:27:01.9861|Trace|Ocaramba.Helpers.FilesHelper.GetFolder|appConfigValue 'TestOutput', currentFolder 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1', UseCurrentDirectory 'True'
+2022-03-28 09:27:01.9861|Trace|Ocaramba.BaseConfiguration.get_UseCurrentDirectory|Use Current Directory value from settings file 'true'
+2022-03-28 09:27:01.9861|Trace|Ocaramba.Helpers.FilesHelper.GetFolder|Returned folder 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutput'
+2022-03-28 09:27:01.9916|Debug|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is 277 characters
+2022-03-28 09:27:01.9916|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:27:01.9916|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJan_Kowalski_aymer2_rackabzar_com_12345_1_1_1990_Jan_Kowalski_Objectivity_Strzalowa_12_m3_Poznan_1_12000_21_123123123_Main_2022_03_28_09_27_01_985_browser.png
+2022-03-28 09:27:01.9916|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:27:01.9916|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalski_aymer2_rackabzar_com_12345_1_1_1990_Jan_Kowalski_Objectivity_Strzalowa_12_m3_Poznan_1_12000_21_123123123_Main_2022_03_28_09_27_01_985_browser.png
+2022-03-28 09:27:01.9916|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:27:01.9916|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalskiaymer2_rackabzar_com_12345_1_1_1990_Jan_Kowalski_Objectivity_Strzalowa_12_m3_Poznan_1_12000_21_123123123_Main_2022_03_28_09_27_01_985_browser.png
+2022-03-28 09:27:01.9916|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:27:01.9916|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalskiaymer2rackabzar_com_12345_1_1_1990_Jan_Kowalski_Objectivity_Strzalowa_12_m3_Poznan_1_12000_21_123123123_Main_2022_03_28_09_27_01_985_browser.png
+2022-03-28 09:27:01.9916|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:27:01.9916|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalskiaymer2rackabzarcom_12345_1_1_1990_Jan_Kowalski_Objectivity_Strzalowa_12_m3_Poznan_1_12000_21_123123123_Main_2022_03_28_09_27_01_985_browser.png
+2022-03-28 09:27:01.9916|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:27:01.9916|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalskiaymer2rackabzarcom12345_1_1_1990_Jan_Kowalski_Objectivity_Strzalowa_12_m3_Poznan_1_12000_21_123123123_Main_2022_03_28_09_27_01_985_browser.png
+2022-03-28 09:27:01.9916|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:27:01.9916|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalskiaymer2rackabzarcom123451_1_1990_Jan_Kowalski_Objectivity_Strzalowa_12_m3_Poznan_1_12000_21_123123123_Main_2022_03_28_09_27_01_985_browser.png
+2022-03-28 09:27:01.9916|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:27:01.9916|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalskiaymer2rackabzarcom1234511_1990_Jan_Kowalski_Objectivity_Strzalowa_12_m3_Poznan_1_12000_21_123123123_Main_2022_03_28_09_27_01_985_browser.png
+2022-03-28 09:27:01.9916|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:27:01.9916|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalskiaymer2rackabzarcom12345111990_Jan_Kowalski_Objectivity_Strzalowa_12_m3_Poznan_1_12000_21_123123123_Main_2022_03_28_09_27_01_985_browser.png
+2022-03-28 09:27:01.9916|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:27:01.9916|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalskiaymer2rackabzarcom12345111990Jan_Kowalski_Objectivity_Strzalowa_12_m3_Poznan_1_12000_21_123123123_Main_2022_03_28_09_27_01_985_browser.png
+2022-03-28 09:27:01.9916|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:27:01.9916|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalskiaymer2rackabzarcom12345111990JanKowalski_Objectivity_Strzalowa_12_m3_Poznan_1_12000_21_123123123_Main_2022_03_28_09_27_01_985_browser.png
+2022-03-28 09:27:01.9916|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:27:01.9916|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalskiaymer2rackabzarcom12345111990JanKowalskiObjectivity_Strzalowa_12_m3_Poznan_1_12000_21_123123123_Main_2022_03_28_09_27_01_985_browser.png
+2022-03-28 09:27:01.9916|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:27:01.9916|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalskiaymer2rackabzarcom12345111990JanKowalskiObjectivityStrzalowa_12_m3_Poznan_1_12000_21_123123123_Main_2022_03_28_09_27_01_985_browser.png
+2022-03-28 09:27:01.9916|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:27:01.9916|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalskiaymer2rackabzarcom12345111990JanKowalskiObjectivityStrzalowa12_m3_Poznan_1_12000_21_123123123_Main_2022_03_28_09_27_01_985_browser.png
+2022-03-28 09:27:01.9916|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:27:01.9916|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalskiaymer2rackabzarcom12345111990JanKowalskiObjectivityStrzalowa12m3_Poznan_1_12000_21_123123123_Main_2022_03_28_09_27_01_985_browser.png
+2022-03-28 09:27:01.9916|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:27:01.9916|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalskiaymer2rackabzarcom12345111990JanKowalskiObjectivityStrzalowa12m3Poznan_1_12000_21_123123123_Main_2022_03_28_09_27_01_985_browser.png
+2022-03-28 09:27:02.0069|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:27:02.0069|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalskiaymer2rackabzarcom12345111990JanKowalskiObjectivityStrzalowa12m3Poznan1_12000_21_123123123_Main_2022_03_28_09_27_01_985_browser.png
+2022-03-28 09:27:02.0069|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:27:02.0069|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalskiaymer2rackabzarcom12345111990JanKowalskiObjectivityStrzalowa12m3Poznan112000_21_123123123_Main_2022_03_28_09_27_01_985_browser.png
+2022-03-28 09:27:02.0069|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:27:02.0069|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalskiaymer2rackabzarcom12345111990JanKowalskiObjectivityStrzalowa12m3Poznan11200021_123123123_Main_2022_03_28_09_27_01_985_browser.png
+2022-03-28 09:27:02.0069|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:27:02.0069|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalskiaymer2rackabzarcom12345111990JanKowalskiObjectivityStrzalowa12m3Poznan11200021123123123_Main_2022_03_28_09_27_01_985_browser.png
+2022-03-28 09:27:02.0069|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:27:02.0069|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalskiaymer2rackabzarcom12345111990JanKowalskiObjectivityStrzalowa12m3Poznan11200021123123123Main_2022_03_28_09_27_01_985_browser.png
+2022-03-28 09:27:02.0069|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|Length of the file full name is over 255 characters removing first occurrence of _
+2022-03-28 09:27:02.0069|Trace|Ocaramba.Helpers.NameHelper.ShortenFileName|File full name: C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutputcredentialCsvJanKowalskiaymer2rackabzarcom12345111990JanKowalskiObjectivityStrzalowa12m3Poznan11200021123123123Main2022_03_28_09_27_01_985_browser.png
+2022-03-28 09:27:02.0069|Trace|Ocaramba.BaseConfiguration.get_ShortTimeout|Gets the shortTimeout from settings file '3'
+2022-03-28 09:27:02.0069|Debug|Ocaramba.Helpers.FilesHelper.WaitForFileOfGivenName|Wait for file: credentialCsvJanKowalskiaymer2rackabzarcom12345111990JanKowalskiObjectivityStrzalowa12m3Poznan11200021123123123Main2022_03_28_09_27_01_985_browser.png
+2022-03-28 09:27:03.0204|Debug|Ocaramba.Helpers.FilesHelper.WaitForFileOfGivenName|File exists
+2022-03-28 09:27:03.0204|Debug|Ocaramba.Helpers.FilesHelper.WaitForFileOfGivenName|Checking if size of last file > 0 bytes
+2022-03-28 09:27:03.0204|Debug|Ocaramba.Helpers.FilesHelper.GetFileByName|Get File 'credentialCsvJanKowalskiaymer2rackabzarcom12345111990JanKowalskiObjectivityStrzalowa12m3Poznan11200021123123123Main2022_03_28_09_27_01_985_browser.png' from 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutput'
+2022-03-28 09:27:04.0327|Error|Ocaramba.DriverContext.SaveScreenshot|Test failed: screenshot saved to C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutput\credentialCsvJanKowalskiaymer2rackabzarcom12345111990JanKowalskiObjectivityStrzalowa12m3Poznan11200021123123123Main2022_03_28_09_27_01_985_browser.png.
+2022-03-28 09:27:04.0327|Trace|Ocaramba.BaseConfiguration.get_GetPageSourceEnabled|Get Page Source Enabled value from settings file 'false'
+2022-03-28 09:27:04.0327|Info|Ocaramba.Logger.TestLogger.Info|Uploading file [C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutput\credentialCsvJanKowalskiaymer2rackabzarcom12345111990JanKowalskiObjectivityStrzalowa12m3Poznan11200021123123123Main2022_03_28_09_27_01_985_browser.png] to test context
+2022-03-28 09:27:04.0380|Info|Ocaramba.Logger.TestLogger.Info|END: credentialCsv_Jan_Kowalski_aymer2_rackabzar_com_12345_1_1_1990_Jan_Kowalski_Objectivity_Strzalowa_12_m3_Poznan_1_12000_21_123123123_Main ends at 28.03.2022 09:27:04 after 60 sec.
+2022-03-28 09:27:04.0380|Info|Ocaramba.Logger.TestLogger.Info|*************************************************************************************
+2022-03-28 09:27:04.0380|Trace|Ocaramba.BaseConfiguration.get_JavaScriptErrorLogging|JavaScript error logging value from settings file 'false'
+2022-03-28 09:28:32.3000|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-28 09:28:32.3156|Trace|Ocaramba.BaseConfiguration.get_ChromeBrowserExecutableLocation|Gets the path and file name of the Chrome browser executable from settings file ''
+2022-03-28 09:28:32.3156|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverLog|Gets the PathToChromeDriverLog from settings file 'C:\Temp\chromedriver.log'
+2022-03-28 09:28:32.3188|Trace|Ocaramba.BaseConfiguration.get_EnableVerboseLoggingChrome|Verbose logging for Chrome value from settings file 'false'
+2022-03-28 09:28:32.3188|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverDirectory|Path to the directory containing Chrome Driver from settings file '..\..\..\..\chromedriver_win32'
+2022-03-28 09:28:32.3188|Trace|Ocaramba.BaseConfiguration.get_PathToChromeDriverDirectory|Path to the directory containing Chrome Driver from settings file '..\..\..\..\chromedriver_win32'
+2022-03-28 09:28:32.3188|Trace|Ocaramba.BaseConfiguration.get_DownloadFolder|Get DownloadFolder value from settings file 'TestOutput'
+2022-03-28 09:28:32.3377|Trace|Ocaramba.BaseConfiguration.get_UseCurrentDirectory|Use Current Directory value from settings file 'true'
+2022-03-28 09:28:32.3377|Trace|Ocaramba.Helpers.FilesHelper.GetFolder|appConfigValue 'TestOutput', currentFolder 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1', UseCurrentDirectory 'True'
+2022-03-28 09:28:32.3377|Trace|Ocaramba.BaseConfiguration.get_UseCurrentDirectory|Use Current Directory value from settings file 'true'
+2022-03-28 09:28:32.3377|Trace|Ocaramba.Helpers.FilesHelper.GetFolder|Returned folder 'C:\Projects\AQE\Selenium\Ocaramba.SeleniumTests\Ocaramba.SeleniumTests\bin\Debug\netcoreapp3.1\TestOutput'
+2022-03-28 09:28:32.3377|Trace|Ocaramba.BaseConfiguration.get_Proxy|Gets the url from settings file ''
+2022-03-28 09:28:33.1837|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:28:33.1837|Info|Ocaramba.Logger.TestLogger.Info|*************************************************************************************
+2022-03-28 09:28:33.1938|Info|Ocaramba.Logger.TestLogger.Info|START: credentialCsv_Jan_Kowalski_aymer2_rackabzar_com_12345_1_1_1990_Jan_Kowalski_Objectivity_Strzalowa_12_m3_Poznan_1_12000_21_123123123_Main starts at 28.03.2022 09:28:33.
+2022-03-28 09:28:33.1938|Trace|Ocaramba.BaseConfiguration.get_Protocol|Gets the protocol from settings file 'http'
+2022-03-28 09:28:33.1938|Trace|Ocaramba.BaseConfiguration.get_Host|Gets the protocol from settings file 'automationpractice.com'
+2022-03-28 09:28:33.1938|Trace|Ocaramba.BaseConfiguration.get_Url|Gets the url from settings file ''
+2022-03-28 09:28:33.1938|Trace|Ocaramba.BaseConfiguration.get_GetUrlValue|Get Url value from settings file 'http://automationpractice.com'
+2022-03-28 09:28:33.1938|Trace|Ocaramba.BaseConfiguration.get_Protocol|Gets the protocol from settings file 'http'
+2022-03-28 09:28:33.1938|Trace|Ocaramba.BaseConfiguration.get_Host|Gets the protocol from settings file 'automationpractice.com'
+2022-03-28 09:28:33.1938|Trace|Ocaramba.BaseConfiguration.get_Url|Gets the url from settings file ''
+2022-03-28 09:28:33.1938|Info|Ocaramba.SeleniumTests.PageObjects.HomePage.OpenHomePage|Opening page http://automationpractice.com
+2022-03-28 09:28:38.2553|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-28 09:28:38.2553|Trace|Ocaramba.BaseConfiguration.get_TestBrowser|Browser value from settings file 'Chrome'
+2022-03-28 09:28:38.2779|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 09:28:38.2779|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:28:40.5967|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 09:28:40.5967|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:28:40.6527|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 09:28:40.6527|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:28:41.7464|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 09:28:41.7464|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:28:43.0976|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 09:28:43.0976|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:28:45.4647|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 09:28:45.4647|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:28:45.5313|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 09:28:45.5313|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:28:45.5854|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 09:28:45.5854|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:28:47.7047|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 09:28:47.7047|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:28:49.0782|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 09:28:49.0782|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:28:52.5310|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 09:28:52.5310|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:28:55.8695|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 09:28:55.8695|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:28:58.1100|Trace|Ocaramba.BaseConfiguration.get_LongTimeout|Gets the longTimeout from settings file '30'
+2022-03-28 09:28:58.1100|Trace|Ocaramba.BaseConfiguration.get_EnableEventFiringWebDriver|Enable EventFiringWebDriver from settings file 'false'
+2022-03-28 09:28:58.1336|Info|Ocaramba.Logger.TestLogger.Info|END: credentialCsv_Jan_Kowalski_aymer2_rackabzar_com_12345_1_1_1990_Jan_Kowalski_Objectivity_Strzalowa_12_m3_Poznan_1_12000_21_123123123_Main ends at 28.03.2022 09:28:58 after 25 sec.
+2022-03-28 09:28:58.1336|Info|Ocaramba.Logger.TestLogger.Info|*************************************************************************************
+2022-03-28 09:28:58.1336|Trace|Ocaramba.BaseConfiguration.get_JavaScriptErrorLogging|JavaScript error logging value from settings file 'false'

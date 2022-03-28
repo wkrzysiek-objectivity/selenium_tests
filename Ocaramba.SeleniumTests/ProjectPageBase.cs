@@ -21,8 +21,10 @@
 // </license>
 
 using Ocaramba;
+using Ocaramba.Extensions;
 using Ocaramba.Types;
 using OpenQA.Selenium;
+using OpenQA.Selenium.Interactions;
 
 namespace Ocaramba.SeleniumTests
 {
@@ -31,8 +33,11 @@ namespace Ocaramba.SeleniumTests
     /// </summary>
     public partial class ProjectPageBase
     {
-        protected readonly ElementLocator
-            cartButton = new ElementLocator(Locator.XPath, "//a[@title='View my shopping cart']");
+        protected readonly ElementLocator cartButton = new ElementLocator(Locator.XPath, "//a[@title='View my shopping cart']");
+        protected readonly ElementLocator cartPopupContinueShoppingButton = new ElementLocator(Locator.XPath, "//i[@class='icon-chevron-left left']");
+        protected readonly ElementLocator cartPopupProceedToCheckoutButton = new ElementLocator(Locator.XPath, "//i[@class='icon-chevron-right right']");
+        private readonly ElementLocator error406 = new ElementLocator(Locator.XPath, "//h1[contains(text(),'Error 406 - Not Acceptable')]");
+
 
         /// <summary>
         /// Initializes a new instance of the <see cref="ProjectPageBase"/> class.
@@ -53,5 +58,54 @@ namespace Ocaramba.SeleniumTests
         /// Gets or sets Driver context.
         /// </summary>
         protected DriverContext DriverContext { get; set; }
+
+        public void DisplayUnvisibleBlockByJS(string xpath) {
+            IJavaScriptExecutor js = (IJavaScriptExecutor)Driver;
+            IWebElement webElement = this.Driver.FindElement(By.XPath(xpath));
+            js.ExecuteScript("arguments[0].setAttribute('style', 'display: block')", webElement);
+        }
+
+        public void MoveMouseToByAction(string xpath) {
+            IWebElement webElement = Driver.FindElement(By.XPath(xpath));
+            Actions action = new Actions(Driver);
+            action.MoveToElement(webElement);
+            action.Perform();
+        }
+
+        public void AddToCartProduct(ElementLocator elementLocator)
+        {
+            this.Driver.GetElement(elementLocator).Click();
+        }
+
+        public void ContinueShoppingPopupCart() {
+            this.Driver.GetElement(cartPopupContinueShoppingButton).Click();
+        }
+
+        public void ProceedToCheckoutPopupCart()
+        {
+            this.Driver.GetElement(cartPopupProceedToCheckoutButton).Click();
+        }
+
+        public CartPage OpenCartPage()
+        {
+            this.Driver.GetElement(cartButton).Click();
+            return new CartPage(this.DriverContext);
+        }
+        public bool Error406IsVisible()
+        {
+            try
+            {
+                this.Driver.GetElement(error406);
+                return true;
+            }
+            catch (NoSuchElementException)
+            {
+                return false;
+            }
+            catch (WebDriverTimeoutException)
+            {
+                return false;
+            }
+        }
     }
 }

@@ -5,9 +5,12 @@
 // See documentation : https://github.com/ObjectivityLtd/Ocaramba
 
 using NUnit.Framework;
-using Ocaramba.SeleniumTests.PageObjects;
-using System.Collections.Generic;
 using Ocaramba.SeleniumTests.DataDriven;
+using Ocaramba.SeleniumTests.PageObjects;
+using OpenQA.Selenium;
+using OpenQA.Selenium.Support.UI;
+using System;
+using System.Collections.Generic;
 
 namespace Ocaramba.SeleniumTests
 {
@@ -18,6 +21,12 @@ namespace Ocaramba.SeleniumTests
     [Parallelizable(ParallelScope.Fixtures)]
     public class CreateNewUserTest : ProjectTestBase
     {
+        [TearDown]
+        public void TearDown()
+        {
+            this.DriverContext.Driver.Close();
+            this.DriverContext.Driver.Quit();
+        }
 
         /// <summary>
         /// Test method.
@@ -26,6 +35,8 @@ namespace Ocaramba.SeleniumTests
         [TestCaseSource(typeof(TestData), "CredentialsCSV")]
         public void AddNewUser(IDictionary<string, string> parameters)
         {
+            WebDriverWait wait = new WebDriverWait(this.DriverContext.Driver, TimeSpan.FromSeconds(10));
+
             var homePage = new HomePage(this.DriverContext);
             homePage.OpenHomePage();
             homePage.GoToAuthenticationPage();
@@ -52,9 +63,10 @@ namespace Ocaramba.SeleniumTests
             createAccountPage.SetCountryAddress(parameters["Country"]);
             createAccountPage.SetMobilePhone(parameters["MobilePhone"]);
             createAccountPage.SetAlias(parameters["Alias"]);
-            
+
             var myAccountPage = createAccountPage.ClickRegisterButton();
 
+            wait.Until(d => this.DriverContext.Driver.FindElement(By.XPath(myAccountPage.myAccountPageTitleXpath)).Displayed);
             Assert.IsTrue(myAccountPage.PageTitleIsVisible(), "Registration fail.");
         }
     }

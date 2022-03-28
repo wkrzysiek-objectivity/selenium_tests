@@ -167,6 +167,16 @@
             Go to SignIn page.
             </summary>
         </member>
+        <member name="T:Ocaramba.SeleniumTests.Tests.BuyProductTest">
+            <summary>
+            Test class.
+            </summary>
+        </member>
+        <member name="M:Ocaramba.SeleniumTests.Tests.BuyProductTest.buyProductWithoutLogin(System.Collections.Generic.IDictionary{System.String,System.String})">
+            <summary>
+            Test method.
+            </summary>
+        </member>
         <member name="T:Ocaramba.SeleniumTests.CreateNewUserTest">
             <summary>
             Test class.

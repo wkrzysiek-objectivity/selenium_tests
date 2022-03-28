@@ -124,5 +124,10 @@ namespace Ocaramba.SeleniumTests
                 }
             }
         }
+
+        public void executeJavascriptOnElement()
+        {
+
+        }
     }
 }

@@ -24,6 +24,7 @@ using NLog;
 using Ocaramba;
 using Ocaramba.Extensions;
 using Ocaramba.Types;
+using OpenQA.Selenium;
 using System;
 using System.Globalization;
 
@@ -39,10 +40,10 @@ namespace Ocaramba.SeleniumTests.PageObjects
         /// <summary>
         /// Locators for elements.
         /// </summary>
-        private readonly ElementLocator
-            //linkLocator = new ElementLocator(Locator.CssSelector, "a[href='/{0}']"),
-            //logoHomePageLocator = new ElementLocator(Locator.XPath, "//a[contains(text(),'My Store')]"),
-            signInButtonLocator = new ElementLocator(Locator.XPath, "//a[@class='login']");
+        private readonly ElementLocator signInButtonLocator = new ElementLocator(Locator.XPath, "//a[@class='login']");
+        private readonly ElementLocator tshirtSubCategory = new ElementLocator(Locator.XPath, "//a[@title='Blouses']");
+
+        public readonly String womenCategory = "//ul[@class='sf-menu clearfix menu-content sf-js-enabled sf-arrows']/li[1]/ul";
 
         /// <summary>
         /// Initializes a new instance of the <see cref="HomePage"/> class.
@@ -69,7 +70,11 @@ namespace Ocaramba.SeleniumTests.PageObjects
         public void GoToAuthenticationPage()
         {
             this.Driver.GetElement(this.signInButtonLocator).Click();
-        }   
-        
+        }
+
+        public BlousesCategoryPage goToBlousesSubCategory() {
+            this.Driver.GetElement(this.tshirtSubCategory).Click();
+            return new BlousesCategoryPage(this.DriverContext);
+        }
     }
 }

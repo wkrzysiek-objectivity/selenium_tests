@@ -6,7 +6,8 @@ namespace Ocaramba.SeleniumTests.PageObjects
 {
     public class MyAccountPage : CreateAccountPage
     {
-        private readonly ElementLocator myAccountPageTitle = new ElementLocator(Locator.XPath, "//h1[contains(text(),'My account')]");
+        public string myAccountPageTitleXpath = "//h1[contains(text(),'My account')]";
+        
 
         public MyAccountPage(DriverContext driverContext) : base(driverContext)
         {
@@ -14,6 +15,8 @@ namespace Ocaramba.SeleniumTests.PageObjects
 
         public bool PageTitleIsVisible() 
         {
+            ElementLocator myAccountPageTitle = new ElementLocator(Locator.XPath, myAccountPageTitleXpath);
+
             try 
             {
                 this.Driver.GetElement(myAccountPageTitle);

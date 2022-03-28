@@ -13,7 +13,7 @@ namespace Ocaramba.SeleniumTests.PageObjects
         private readonly ElementLocator createAccountButtonLocator = new ElementLocator(Locator.Id, "SubmitCreate");
 
         private readonly ElementLocator signInEmailAddressLocator = new ElementLocator(Locator.Id, "email");
-        private readonly ElementLocator signInPasswordLocator = new ElementLocator(Locator.Id, "isPasswd");
+        private readonly ElementLocator signInPasswordLocator = new ElementLocator(Locator.XPath, "//input[@name='passwd']");
         private readonly ElementLocator signInButtonLocator = new ElementLocator(Locator.Id, "SubmitLogin");
 
         private readonly ElementLocator forgotPasswordButtonLocator = new ElementLocator(Locator.XPath, "//a[@title='Recover your forgotten password']");
