@@ -32,5 +32,15 @@ namespace Ocaramba.SeleniumTests.PageObjects
             this.Driver.GetElement(myAdresses).Click();
             return new MyAddresses(this.DriverContext);
         }
+        public MyAddresses OpenMyPersonalInfoPage()
+        {
+            this.Driver.GetElement(myPersonalInfo).Click();
+            return new MyAddresses(this.DriverContext);
+        }
+        public MyAddresses OpenMyCreditSlipsPage()
+        {
+            this.Driver.GetElement(myCreditSlips).Click();
+            return new MyAddresses(this.DriverContext);
+        }
     }
 }

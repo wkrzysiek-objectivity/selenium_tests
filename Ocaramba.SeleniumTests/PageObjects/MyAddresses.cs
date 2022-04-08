@@ -14,7 +14,6 @@ namespace Ocaramba.SeleniumTests.PageObjects
         public MyAddresses(DriverContext driverContext) : base(driverContext)
         {
         }
-
         public CreateAccountPage UpdateAddressPage()
         {
             this.Driver.GetElement(updateAddressButton, 10).Click();
