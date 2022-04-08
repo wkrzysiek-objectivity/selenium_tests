@@ -10,8 +10,6 @@ namespace Ocaramba.SeleniumTests.Tests
     /// <summary>
     /// Test class.
     /// </summary>
-    [TestFixture]
-    [Parallelizable(ParallelScope.Fixtures)]
     class UpdateAddressTest : ProjectTestBase
     {
         [TearDown]

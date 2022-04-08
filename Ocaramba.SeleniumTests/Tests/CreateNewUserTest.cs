@@ -17,8 +17,6 @@ namespace Ocaramba.SeleniumTests
     /// <summary>
     /// Test class.
     /// </summary>
-    [TestFixture]
-    [Parallelizable(ParallelScope.Fixtures)]
     public class CreateNewUserTest : ProjectTestBase
     {
         [TearDown]
@@ -44,25 +42,26 @@ namespace Ocaramba.SeleniumTests
             var authenticationPage = new AuthenticationPage(this.DriverContext);
 
             var createAccountPage = authenticationPage.createAccount(parameters["Email"]);
-            createAccountPage.PageTitleIsVisible();
-            createAccountPage.SetMrCheckbox();
-            createAccountPage.SetFirstName(parameters["FirstName"]);
-            createAccountPage.SetLastName(parameters["LastName"]);
-            createAccountPage.SetPassword(parameters["Password"]);
-            createAccountPage.SetDayOfBirth(parameters["DayOfBirth"]);
-            createAccountPage.SetMonthOfBirth(parameters["MonthOfBirth"]);
-            createAccountPage.SetYearOfBirthField(parameters["YearOfBirth"]);
-            createAccountPage.ClickNewsletterCheckbox();
-            createAccountPage.ClickSpecialOffersCheckbox();
-            createAccountPage.SetFirstNameAddress(parameters["FirstNameAddress"]);
-            createAccountPage.SetLastNameAddress(parameters["LastNameAddress"]);
-            createAccountPage.SetFirstLineAddress(parameters["AddressFirstLine"]);
-            createAccountPage.SetCityAddress(parameters["City"]);
-            createAccountPage.SetStateAddress(parameters["State"]);
-            createAccountPage.SetZipAddress(parameters["Zip"]);
-            createAccountPage.SetCountryAddress(parameters["Country"]);
-            createAccountPage.SetMobilePhone(parameters["MobilePhone"]);
-            createAccountPage.SetAlias(parameters["Alias"]);
+
+            createAccountPage
+                .SetMrCheckbox()
+                .SetFirstName(parameters["FirstName"])
+                .SetLastName(parameters["LastName"])
+                .SetPassword(parameters["Password"])
+                .SetDayOfBirth(parameters["DayOfBirth"])
+                .SetMonthOfBirth(parameters["MonthOfBirth"])
+                .SetYearOfBirthField(parameters["YearOfBirth"])
+                .ClickNewsletterCheckbox()
+                .ClickSpecialOffersCheckbox()
+                .SetFirstNameAddress(parameters["FirstNameAddress"])
+                .SetLastNameAddress(parameters["LastNameAddress"])
+                .SetFirstLineAddress(parameters["AddressFirstLine"])
+                .SetCityAddress(parameters["City"])
+                .SetStateAddress(parameters["State"])
+                .SetZipAddress(parameters["Zip"])
+                .SetCountryAddress(parameters["Country"])
+                .SetMobilePhone(parameters["MobilePhone"])
+                .SetAlias(parameters["Alias"]);
 
             var myAccountPage = createAccountPage.ClickSaveButton();
 

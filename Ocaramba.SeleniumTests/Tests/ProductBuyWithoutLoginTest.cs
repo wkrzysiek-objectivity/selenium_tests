@@ -9,8 +9,6 @@ namespace Ocaramba.SeleniumTests.Tests
     /// <summary>
     /// Test class.
     /// </summary>
-    [TestFixture]
-    [Parallelizable(ParallelScope.Fixtures)]
     class ProductBuyWithoutLoginTest : ProjectTestBase
     {
         [TearDown]
@@ -32,23 +30,23 @@ namespace Ocaramba.SeleniumTests.Tests
             var homePage = new HomePage(this.DriverContext);
             homePage.OpenHomePage();
             homePage.DisplayUnvisibleBlockByJS(homePage.womenCategory);
-    
 
             var blousesCategoryPage = homePage.goToBlousesSubCategory();
-            blousesCategoryPage.MoveMouseToByAction(blousesCategoryPage.BlouseElement);
-            blousesCategoryPage.AddToCartProduct(blousesCategoryPage.AddToCartProductId2);
-            blousesCategoryPage.ContinueShoppingPopupCart();
+           
+            homePage.MoveMouseToByAction(blousesCategoryPage.BlouseElement)
+            .AddToCartProduct(blousesCategoryPage.AddToCartProductId2)
+            .ContinueShoppingPopupCart();
 
             var cartPage = homePage.OpenCartPage();
 
             var authenticationPage = cartPage.ProceedToCheckout();
             authenticationPage.signInPage(parameters["Email"], parameters["Password"]);
 
-            cartPage.ProcessAddress();
-            cartPage.ClickCheckboxTerms();
-            cartPage.ProcessCarrier();
-            cartPage.PayByBankWire();
-            cartPage.ConfirmOrder();
+            cartPage.ProcessAddress()
+                .ClickCheckboxTerms()
+                .ProcessCarrier()
+                .PayByBankWire()
+                .ConfirmOrder();
 
             Assert.IsTrue(cartPage.OrderConfirmationMessageIsVisible(), "Registration fail.");
         }

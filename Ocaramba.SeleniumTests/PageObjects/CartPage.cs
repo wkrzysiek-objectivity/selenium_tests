@@ -30,26 +30,31 @@ namespace Ocaramba.SeleniumTests
             this.Driver.GetElement(proceedToCheckoutButton).Click();
             return new AuthenticationPage(this.DriverContext);
         }
-        public void ProcessAddress()
+        public CartPage ProcessAddress()
         {
             this.Driver.GetElement(processAddressButton).Click();
+            return new CartPage(this.DriverContext);
         }
-        public void ProcessCarrier()
+        public CartPage ProcessCarrier()
         {
             this.Driver.GetElement(processCarrierButton).Click();
+            return new CartPage(this.DriverContext);
         }
-        public void PayByBankWire()
+        public CartPage PayByBankWire()
         {
             this.Driver.GetElement(payByBankWireButton).Click();
+            return new CartPage(this.DriverContext);
         }
-        public void ClickCheckboxTerms()
+        public CartPage ClickCheckboxTerms()
         {
             IWebElement agreeTermsCheckbox = this.Driver.FindElement(By.CssSelector("input[name='cgv']"));
             agreeTermsCheckbox.Click();
+            return new CartPage(this.DriverContext);
         }
-        public void ConfirmOrder()
+        public CartPage ConfirmOrder()
         {
             this.Driver.GetElement(confirmOrderButton).Click();
+            return new CartPage(this.DriverContext);
         }
         public bool OrderConfirmationMessageIsVisible() 
         {

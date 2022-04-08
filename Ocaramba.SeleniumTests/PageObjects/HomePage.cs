@@ -25,6 +25,7 @@ using Ocaramba;
 using Ocaramba.Extensions;
 using Ocaramba.Types;
 using OpenQA.Selenium;
+using OpenQA.Selenium.Interactions;
 using System;
 using System.Globalization;
 
@@ -43,6 +44,10 @@ namespace Ocaramba.SeleniumTests.PageObjects
         private readonly ElementLocator signInButtonLocator = new ElementLocator(Locator.XPath, "//a[@class='login']");
         private readonly ElementLocator tshirtSubCategory = new ElementLocator(Locator.XPath, "//a[@title='Blouses']");
 
+        protected readonly ElementLocator cartPopupContinueShoppingButton = new ElementLocator(Locator.XPath, "//i[@class='icon-chevron-left left']");
+        protected readonly ElementLocator cartPopupProceedToCheckoutButton = new ElementLocator(Locator.XPath, "//i[@class='icon-chevron-right right']");
+        private readonly ElementLocator error406 = new ElementLocator(Locator.XPath, "//h1[contains(text(),'Error 406 - Not Acceptable')]");
+
         public readonly String womenCategory = "//ul[@class='sf-menu clearfix menu-content sf-js-enabled sf-arrows']/li[1]/ul";
 
         /// <summary>
@@ -57,11 +62,12 @@ namespace Ocaramba.SeleniumTests.PageObjects
         /// <summary>
         /// Methods for this HomePage.
         /// </summary>
-        public void OpenHomePage()
+        public HomePage OpenHomePage()
         {
             var url = BaseConfiguration.GetUrlValue;
             Logger.Info(CultureInfo.CurrentCulture, "Opening page {0}", url);
             this.Driver.NavigateTo(new Uri(url));
+            return new HomePage(this.DriverContext);
         }
 
         /// <summary>
@@ -76,6 +82,57 @@ namespace Ocaramba.SeleniumTests.PageObjects
         public BlousesCategoryPage goToBlousesSubCategory() {
             this.Driver.GetElement(this.tshirtSubCategory).Click();
             return new BlousesCategoryPage(this.DriverContext);
+        }
+        public HomePage DisplayUnvisibleBlockByJS(string xpath)
+        {
+            IJavaScriptExecutor js = (IJavaScriptExecutor)Driver;
+            IWebElement webElement = this.Driver.FindElement(By.XPath(xpath));
+            js.ExecuteScript("arguments[0].setAttribute('style', 'display: block')", webElement);
+            return new HomePage(this.DriverContext);
+        }
+
+        public HomePage MoveMouseToByAction(string xpath)
+        {
+            IWebElement webElement = Driver.FindElement(By.XPath(xpath));
+            Actions action = new Actions(Driver);
+            action.MoveToElement(webElement);
+            action.Perform();
+            return new HomePage(this.DriverContext);
+        }
+
+        public HomePage AddToCartProduct(ElementLocator elementLocator)
+        {
+            this.Driver.GetElement(elementLocator).Click();
+            return new HomePage(this.DriverContext);
+        }
+
+        public HomePage ContinueShoppingPopupCart()
+        {
+            this.Driver.GetElement(cartPopupContinueShoppingButton).Click();
+            return new HomePage(this.DriverContext);
+        }
+
+        public HomePage ProceedToCheckoutPopupCart()
+        {
+            this.Driver.GetElement(cartPopupProceedToCheckoutButton).Click();
+            return new HomePage(this.DriverContext);
+        }
+
+        public bool Error406IsVisible()
+        {
+            try
+            {
+                this.Driver.GetElement(error406);
+                return true;
+            }
+            catch (NoSuchElementException)
+            {
+                return false;
+            }
+            catch (WebDriverTimeoutException)
+            {
+                return false;
+            }
         }
     }
 }
