@@ -38,6 +38,7 @@ namespace Ocaramba.SeleniumTests.PageObjects
         private readonly ElementLocator addressAliasAddressField = new ElementLocator(Locator.Id, "alias");
 
         private readonly ElementLocator registerButton = new ElementLocator(Locator.Id, "submitAccount");
+        private readonly ElementLocator submitAddressButton = new ElementLocator(Locator.Id, "submitAddress");
 
 
         /// <summary>
@@ -150,8 +151,14 @@ namespace Ocaramba.SeleniumTests.PageObjects
         }
         public CreateAccountPage SetCityAddress(string text)
         {
+            this.Driver.GetElement(cityAddressField).Clear();
             this.Driver.GetElement(cityAddressField).SendKeys(text);
             return this;
+        }
+        public string GetCityAddress() 
+        {
+            string attribute = this.Driver.GetElement(cityAddressField).GetAttribute("value");
+            return attribute;
         }
         public CreateAccountPage SetStateAddress(string text)
         {
@@ -192,9 +199,14 @@ namespace Ocaramba.SeleniumTests.PageObjects
             this.Driver.GetElement(addressAliasAddressField).SendKeys(text);
             return this;
         }
-        public MyAccountPage ClickRegisterButton()
+        public MyAccountPage ClickSaveButton()
         {
             this.Driver.GetElement(registerButton).Click();
+            return new MyAccountPage(this.DriverContext);
+        }
+        public MyAccountPage ClickSubmitAddressButton()
+        {
+            this.Driver.GetElement(submitAddressButton).Click();
             return new MyAccountPage(this.DriverContext);
         }
         public void PageTitleIsVisible() 

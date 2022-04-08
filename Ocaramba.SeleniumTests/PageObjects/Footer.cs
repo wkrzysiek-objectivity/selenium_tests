@@ -24,8 +24,13 @@ namespace Ocaramba.SeleniumTests.PageObjects
         }
         public MyAccountPage OpenMyOrdersPage()
         {
-            this.Driver.GetElement(myAccount).Click();
+            this.Driver.GetElement(myOrders).Click();
             return new MyAccountPage(this.DriverContext);
+        }
+        public MyAddresses OpenMyAdressesPage()
+        {
+            this.Driver.GetElement(myAdresses).Click();
+            return new MyAddresses(this.DriverContext);
         }
     }
 }

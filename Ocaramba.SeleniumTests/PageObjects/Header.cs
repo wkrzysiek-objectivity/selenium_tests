@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Ocaramba.SeleniumTests.PageObjects
 {
-    public class Header : ProjectPageBase
+    public class Header : Footer
     {
         protected readonly ElementLocator cartButton = new ElementLocator(Locator.XPath, "//a[@title='View my shopping cart']");
         public Header(DriverContext driverContext) : base(driverContext)

@@ -64,7 +64,7 @@ namespace Ocaramba.SeleniumTests
             createAccountPage.SetMobilePhone(parameters["MobilePhone"]);
             createAccountPage.SetAlias(parameters["Alias"]);
 
-            var myAccountPage = createAccountPage.ClickRegisterButton();
+            var myAccountPage = createAccountPage.ClickSaveButton();
 
             wait.Until(d => this.DriverContext.Driver.FindElement(By.XPath(myAccountPage.myAccountPageTitleXpath)).Displayed);
             Assert.IsTrue(myAccountPage.PageTitleIsVisible(), "Registration fail.");

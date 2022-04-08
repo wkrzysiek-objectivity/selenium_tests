@@ -67,9 +67,10 @@ namespace Ocaramba.SeleniumTests.PageObjects
         /// <summary>
         /// Go to SignIn page.
         /// </summary>
-        public void GoToAuthenticationPage()
+        public AuthenticationPage GoToAuthenticationPage()
         {
             this.Driver.GetElement(this.signInButtonLocator).Click();
+            return new AuthenticationPage(this.DriverContext);
         }
 
         public BlousesCategoryPage goToBlousesSubCategory() {

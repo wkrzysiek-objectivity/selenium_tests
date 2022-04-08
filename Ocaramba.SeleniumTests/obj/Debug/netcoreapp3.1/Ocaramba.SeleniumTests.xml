@@ -167,12 +167,22 @@
             Go to SignIn page.
             </summary>
         </member>
-        <member name="T:Ocaramba.SeleniumTests.Tests.BuyProductTest">
+        <member name="T:Ocaramba.SeleniumTests.Tests.ProductBuyWithoutLoginTest">
             <summary>
             Test class.
             </summary>
         </member>
-        <member name="M:Ocaramba.SeleniumTests.Tests.BuyProductTest.buyProductWithoutLogin(System.Collections.Generic.IDictionary{System.String,System.String})">
+        <member name="M:Ocaramba.SeleniumTests.Tests.ProductBuyWithoutLoginTest.buyProductWithoutLogin(System.Collections.Generic.IDictionary{System.String,System.String})">
+            <summary>
+            Test method.
+            </summary>
+        </member>
+        <member name="T:Ocaramba.SeleniumTests.Tests.UpdateAddressTest">
+            <summary>
+            Test class.
+            </summary>
+        </member>
+        <member name="M:Ocaramba.SeleniumTests.Tests.UpdateAddressTest.AddNewUser(System.Collections.Generic.IDictionary{System.String,System.String})">
             <summary>
             Test method.
             </summary>

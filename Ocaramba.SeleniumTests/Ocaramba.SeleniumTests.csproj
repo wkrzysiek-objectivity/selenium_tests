@@ -31,11 +31,13 @@
     <Compile Include="PageObjects\Header.cs" />
     <Compile Include="PageObjects\HomePage.cs" />
     <Compile Include="PageObjects\MyAccountPage.cs" />
+    <Compile Include="PageObjects\MyAddresses.cs" />
     <Compile Include="Tests\ProductBuyWithoutLoginTest.cs" />
     <Compile Include="Tests\CreateNewUserTest.cs" />
     <Compile Include="ProjectBaseConfiguration.cs" />
     <Compile Include="ProjectPageBase.cs" />
     <Compile Include="ProjectTestBase.cs" />
+    <Compile Include="Tests\UpdateAddressTest.cs" />
 	</ItemGroup>
   <ItemGroup>
     <None Include="appsettings.Linux.json">
