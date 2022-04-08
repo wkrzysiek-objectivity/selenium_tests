@@ -10688,6 +10688,7 @@
       "NUnit >= 3.13.2",
       "NUnit3TestAdapter >= 4.2.0",
       "OcarambaLite >= 4.0.0",
+      "Selenium.Support >= 4.1.0",
       "Selenium.WebDriver.ChromeDriver >= 96.0.4664.4500",
       "Selenium.WebDriver.GeckoDriver >= 0.30.0.1",
       "Selenium.WebDriver.IEDriver >= 4.0.0"
@@ -10749,6 +10750,10 @@
           "OcarambaLite": {
             "target": "Package",
             "version": "[4.0.0, )"
+          },
+          "Selenium.Support": {
+            "target": "Package",
+            "version": "[4.1.0, )"
           },
           "Selenium.WebDriver.ChromeDriver": {
             "target": "Package",

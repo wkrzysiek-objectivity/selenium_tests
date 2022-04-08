@@ -4,6 +4,28 @@
         <name>Ocaramba.SeleniumTests</name>
     </assembly>
     <members>
+        <member name="M:Ocaramba.SeleniumTests.FacadeBasePage.#ctor(Ocaramba.DriverContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Ocaramba.SeleniumTests.FacadeBasePage"/> class.
+            </summary>
+            <param name="driverContext">Base driverContext.</param>
+        </member>
+        <member name="P:Ocaramba.SeleniumTests.FacadeBasePage.Driver">
+            <summary>
+            Gets or sets IWebDriver.
+            </summary>
+        </member>
+        <member name="P:Ocaramba.SeleniumTests.FacadeBasePage.DriverContext">
+            <summary>
+            Gets or sets Driver context.
+            </summary>
+        </member>
+        <member name="M:Ocaramba.SeleniumTests.Facade.LoginFacade.#ctor(Ocaramba.DriverContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Ocaramba.SeleniumTests.Facade.LoginFacade"/> class.
+            </summary>
+            <param name="driverContext">Base driverContext.</param>
+        </member>
         <member name="T:Ocaramba.SeleniumTests.DataDriven.DataDrivenHelper">
             <summary>
             XML DataDriven methods for NUnit test framework <see href="https://github.com/ObjectivityLtd/Ocaramba/wiki/DataDriven-tests-from-Xml-files">More details on wiki</see>.
@@ -133,69 +155,17 @@
             </summary>
             <returns> CSV Data driven. </returns>
         </member>
-        <member name="M:Ocaramba.SeleniumTests.PageObjects.CreateAccountPage.#ctor(Ocaramba.DriverContext)">
+        <member name="M:Ocaramba.SeleniumTests.PageObjects.HomePageFacade.#ctor(Ocaramba.DriverContext)">
             <summary>
-            Initializes a new instance of the <see cref="T:Ocaramba.SeleniumTests.PageObjects.CreateAccountPage"/> class.
-            </summary>
-            <param name="driverContext">
-            The driver context.
-            </param>
-        </member>
-        <member name="T:Ocaramba.SeleniumTests.PageObjects.HomePage">
-            <summary>
-            Page object class.
-            </summary>
-        </member>
-        <member name="F:Ocaramba.SeleniumTests.PageObjects.HomePage.signInButtonLocator">
-            <summary>
-            Locators for elements.
-            </summary>
-        </member>
-        <member name="M:Ocaramba.SeleniumTests.PageObjects.HomePage.#ctor(Ocaramba.DriverContext)">
-            <summary>
-            Initializes a new instance of the <see cref="T:Ocaramba.SeleniumTests.PageObjects.HomePage"/> class.
+            Initializes a new instance of the <see cref="T:Ocaramba.SeleniumTests.PageObjects.HomePageFacade"/> class.
             </summary>
             <param name="driverContext">Base driverContext.</param>
         </member>
-        <member name="M:Ocaramba.SeleniumTests.PageObjects.HomePage.OpenHomePage">
+        <member name="M:Ocaramba.SeleniumTests.PageObjects.SignInPageFacade.#ctor(Ocaramba.DriverContext)">
             <summary>
-            Methods for this HomePage.
+            Initializes a new instance of the <see cref="T:Ocaramba.SeleniumTests.PageObjects.SignInPageFacade"/> class.
             </summary>
-        </member>
-        <member name="M:Ocaramba.SeleniumTests.PageObjects.HomePage.GoToAuthenticationPage">
-            <summary>
-            Go to SignIn page.
-            </summary>
-        </member>
-        <member name="T:Ocaramba.SeleniumTests.Tests.ProductBuyWithoutLoginTest">
-            <summary>
-            Test class.
-            </summary>
-        </member>
-        <member name="M:Ocaramba.SeleniumTests.Tests.ProductBuyWithoutLoginTest.buyProductWithoutLogin(System.Collections.Generic.IDictionary{System.String,System.String})">
-            <summary>
-            Test method.
-            </summary>
-        </member>
-        <member name="T:Ocaramba.SeleniumTests.Tests.UpdateAddressTest">
-            <summary>
-            Test class.
-            </summary>
-        </member>
-        <member name="M:Ocaramba.SeleniumTests.Tests.UpdateAddressTest.AddNewUser(System.Collections.Generic.IDictionary{System.String,System.String})">
-            <summary>
-            Test method.
-            </summary>
-        </member>
-        <member name="T:Ocaramba.SeleniumTests.CreateNewUserTest">
-            <summary>
-            Test class.
-            </summary>
-        </member>
-        <member name="M:Ocaramba.SeleniumTests.CreateNewUserTest.AddNewUser(System.Collections.Generic.IDictionary{System.String,System.String})">
-            <summary>
-            Test method.
-            </summary>
+            <param name="driverContext">Base driverContext.</param>
         </member>
         <member name="T:Ocaramba.SeleniumTests.ProjectBaseConfiguration">
             <summary>
@@ -221,27 +191,6 @@
         <member name="P:Ocaramba.SeleniumTests.ProjectBaseConfiguration.DownloadFolderPath">
             <summary>
             Gets the Download Folder path.
-            </summary>
-        </member>
-        <member name="T:Ocaramba.SeleniumTests.ProjectPageBase">
-            <summary>
-            Partial class of ProjectPageBase.
-            </summary>
-        </member>
-        <member name="M:Ocaramba.SeleniumTests.ProjectPageBase.#ctor(Ocaramba.DriverContext)">
-            <summary>
-            Initializes a new instance of the <see cref="T:Ocaramba.SeleniumTests.ProjectPageBase"/> class.
-            </summary>
-            <param name="driverContext">Base driverContext.</param>
-        </member>
-        <member name="P:Ocaramba.SeleniumTests.ProjectPageBase.Driver">
-            <summary>
-            Gets or sets IWebDriver.
-            </summary>
-        </member>
-        <member name="P:Ocaramba.SeleniumTests.ProjectPageBase.DriverContext">
-            <summary>
-            Gets or sets Driver context.
             </summary>
         </member>
         <member name="T:Ocaramba.SeleniumTests.ProjectTestBase">
@@ -277,6 +226,11 @@
         <member name="M:Ocaramba.SeleniumTests.ProjectTestBase.AfterTest">
             <summary>
             After the test.
+            </summary>
+        </member>
+        <member name="M:Ocaramba.SeleniumTests.Tests.TestCaseFacade.LogInAndLogout(System.Collections.Generic.IDictionary{System.String,System.String})">
+            <summary>
+            Test method.
             </summary>
         </member>
     </members>
