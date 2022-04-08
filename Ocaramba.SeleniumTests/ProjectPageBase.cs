@@ -33,7 +33,7 @@ namespace Ocaramba.SeleniumTests
     /// </summary>
     public partial class ProjectPageBase
     {
-        protected readonly ElementLocator cartButton = new ElementLocator(Locator.XPath, "//a[@title='View my shopping cart']");
+        
         protected readonly ElementLocator cartPopupContinueShoppingButton = new ElementLocator(Locator.XPath, "//i[@class='icon-chevron-left left']");
         protected readonly ElementLocator cartPopupProceedToCheckoutButton = new ElementLocator(Locator.XPath, "//i[@class='icon-chevron-right right']");
         private readonly ElementLocator error406 = new ElementLocator(Locator.XPath, "//h1[contains(text(),'Error 406 - Not Acceptable')]");
@@ -86,11 +86,6 @@ namespace Ocaramba.SeleniumTests
             this.Driver.GetElement(cartPopupProceedToCheckoutButton).Click();
         }
 
-        public CartPage OpenCartPage()
-        {
-            this.Driver.GetElement(cartButton).Click();
-            return new CartPage(this.DriverContext);
-        }
         public bool Error406IsVisible()
         {
             try

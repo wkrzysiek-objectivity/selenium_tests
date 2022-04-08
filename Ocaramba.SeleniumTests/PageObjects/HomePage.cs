@@ -33,7 +33,7 @@ namespace Ocaramba.SeleniumTests.PageObjects
     /// <summary>
     /// Page object class.
     /// </summary>
-    public class HomePage : ProjectPageBase
+    public class HomePage : Header
     {
         private static readonly NLog.Logger Logger = NLog.Web.NLogBuilder.ConfigureNLog("nlog.config").GetCurrentClassLogger();
 

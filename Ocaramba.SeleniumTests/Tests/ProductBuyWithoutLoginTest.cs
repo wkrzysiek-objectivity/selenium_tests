@@ -32,13 +32,14 @@ namespace Ocaramba.SeleniumTests.Tests
             var homePage = new HomePage(this.DriverContext);
             homePage.OpenHomePage();
             homePage.DisplayUnvisibleBlockByJS(homePage.womenCategory);
+    
 
             var blousesCategoryPage = homePage.goToBlousesSubCategory();
             blousesCategoryPage.MoveMouseToByAction(blousesCategoryPage.BlouseElement);
             blousesCategoryPage.AddToCartProduct(blousesCategoryPage.AddToCartProductId2);
             blousesCategoryPage.ContinueShoppingPopupCart();
-            
-            var cartPage = blousesCategoryPage.OpenCartPage();
+
+            var cartPage = homePage.OpenCartPage();
 
             var authenticationPage = cartPage.ProceedToCheckout();
             authenticationPage.signInPage(parameters["Email"], parameters["Password"]);

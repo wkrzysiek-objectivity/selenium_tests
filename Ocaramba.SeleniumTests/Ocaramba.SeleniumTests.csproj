@@ -27,6 +27,8 @@
     <Compile Include="PageObjects\AuthenticationPage.cs" />
     <Compile Include="PageObjects\BlousesCategoryPage.cs" />
     <Compile Include="PageObjects\CreateAccountPage.cs" />
+    <Compile Include="PageObjects\Footer.cs" />
+    <Compile Include="PageObjects\Header.cs" />
     <Compile Include="PageObjects\HomePage.cs" />
     <Compile Include="PageObjects\MyAccountPage.cs" />
     <Compile Include="Tests\ProductBuyWithoutLoginTest.cs" />
