@@ -9,8 +9,6 @@ namespace Ocaramba.SeleniumTests.PageObjects
 {
     public class CreateAccountPage : AuthenticationPage
     {
-        private readonly ElementLocator pageTitle = new ElementLocator(Locator.XPath, "//*[contains(text(),'Create an account')]");
-
         private readonly ElementLocator mrTitleRadio = new ElementLocator(Locator.XPath, "//*[@id='id_gender1']");
         private readonly ElementLocator mrsTitleRadio = new ElementLocator(Locator.XPath, "//*[@id='id_gender2']");
 
@@ -18,20 +16,13 @@ namespace Ocaramba.SeleniumTests.PageObjects
         private readonly ElementLocator lastNameField = new ElementLocator(Locator.Id, "customer_lastname");
         private readonly ElementLocator emailField = new ElementLocator(Locator.Id, "email");
         private readonly ElementLocator passwordField = new ElementLocator(Locator.Id, "passwd");
-        private readonly ElementLocator yearOfBirthField = new ElementLocator(Locator.XPath, "//*[@id='years']");
-        private readonly ElementLocator monthOfBirthField = new ElementLocator(Locator.XPath, "//*[@id='months']");
-        private readonly ElementLocator dayOfBirthField = new ElementLocator(Locator.XPath, "//*[@id='days']");
-        private readonly ElementLocator newsletterCheckbox = new ElementLocator(Locator.Id, "newsletter");
-        private readonly ElementLocator specialOffersCheckbox = new ElementLocator(Locator.XPath, "//*[@name='optin']");
         private readonly ElementLocator firstNameAddressField = new ElementLocator(Locator.Id, "firstname");
         private readonly ElementLocator lastNameAddressField = new ElementLocator(Locator.Id, "lastname");
         private readonly ElementLocator companyAddressField = new ElementLocator(Locator.Id, "company");
         private readonly ElementLocator addressFirstLineAddressField = new ElementLocator(Locator.Id, "address1");
         private readonly ElementLocator addressSecondLineAddressField = new ElementLocator(Locator.Id, "address2");
         private readonly ElementLocator cityAddressField = new ElementLocator(Locator.Id, "city");
-        private readonly ElementLocator stateAddressSelect = new ElementLocator(Locator.XPath, "//*[@id='id_state']");
         private readonly ElementLocator zipAddressField = new ElementLocator(Locator.Id, "postcode");
-        private readonly ElementLocator countryAddressSelect = new ElementLocator(Locator.XPath, "//*[@id='id_country']");
         private readonly ElementLocator additionalInformationAddressField = new ElementLocator(Locator.Id, "other");
         private readonly ElementLocator homePhoneAddressField = new ElementLocator(Locator.Id, "phone");
         private readonly ElementLocator mobilePhoneAddressField = new ElementLocator(Locator.Id, "phone_mobile");
