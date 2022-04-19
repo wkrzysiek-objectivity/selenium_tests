@@ -17,11 +17,10 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
-
-- task: NuGetInstaller@0
+- task: NuGetCommand@2
   inputs:
-    solution: '$(Build.SourcesDirectory)\Ocaramba.SeleniumTests.sln'
-    nuGetVersion: 4.0.0.2283
+    command: 'restore'
+    restoreSolution: '**/Ocaramba.SeleniumTests.sln'
 
 - task: VSBuild@1
   inputs:
