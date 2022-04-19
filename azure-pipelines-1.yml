@@ -22,7 +22,6 @@ steps:
   inputs:
     solution: '**\Ocaramba.SeleniumTests.sln'
     vsVersion: '17.0'
-    clean: true
 
 - task: VSTest@2
   inputs:
