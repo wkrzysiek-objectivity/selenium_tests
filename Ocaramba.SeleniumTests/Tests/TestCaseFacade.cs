@@ -2,9 +2,7 @@
 using Ocaramba.SeleniumTests.DataDriven;
 using Ocaramba.SeleniumTests.Facade;
 using Ocaramba.SeleniumTests.PageObjects;
-using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace Ocaramba.SeleniumTests.Tests
 {
