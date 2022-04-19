@@ -20,7 +20,7 @@ steps:
 
 - task: NuGetInstaller@0
   inputs:
-    solution: '$(Build.SourcesDirectory)\Ocaramba.SeleniumTests'
+    solution: '$(Build.SourcesDirectory)\Ocaramba.SeleniumTests.sln'
     nuGetVersion: 4.0.0.2283
 
 - task: VSBuild@1
