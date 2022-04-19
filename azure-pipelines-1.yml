@@ -18,6 +18,11 @@ steps:
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
 
+- task: NuGetInstaller@0
+  inputs:
+    solution: '$(Build.SourcesDirectory)\Ocaramba.SeleniumTests'
+    nuGetVersion: 4.0.0.2283
+
 - task: VSBuild@1
   inputs:
     solution: '**\*.sln'
