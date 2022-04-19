@@ -1,0 +1,31 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- facade-pattern
+
+pool:
+  vmImage: windows-latest
+
+steps:
+- script: echo Hello, world!
+  displayName: 'Run a one-line script'
+
+- task: NuGetCommand@2
+  inputs:
+    command: 'restore'
+    restoreSolution: '**/Ocaramba.SeleniumTests.sln'
+
+- task: VSBuild@1
+  inputs:
+    solution: '**\Ocaramba.SeleniumTests.sln'
+    vsVersion: '17.0'
+    clean: true
+
+- task: VSTest@2
+  inputs:
+    testSelector: 'testAssemblies'
+    testAssemblyVer2: '**\Ocaramba.SeleniumTests.dll'
+    searchFolder: '$(System.DefaultWorkingDirectory)'
